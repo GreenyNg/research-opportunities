@@ -112,7 +112,9 @@ Contributions and updates are very welcome! If you know of an opportunity or not
 
 ## 🙏 Acknowledgements & Attribution
 
-This project began from an open compilation of 2026 research internships curated by the author of the original community Google Doc ([view source document](https://docs.google.com/document/d/16odpvFaFm6ZKxdAPfZPCzk_D0bhnIQSk6-5rfCFBaNE/edit?tab=t.5zd9mj1gqbal)). 
+## 🙏 Acknowledgments & Credits
+
+- Special thanks to the original compiler of the foundational [Research Internships 2026 Google Doc](https://docs.google.com/document/d/16odpvFaFm6ZKxdAPfZPCzk_D0bhnIQSk6-5rfCFBaNE/edit?tab=t.5zd9mj1gqbal), whose initial compilation inspired this automated calendar feed. 
 
 We automated that foundational tracker into a structured `.ics` calendar and continuous pipeline so more researchers could access reminders directly in their workflow. Special thanks for laying the groundwork!
 
