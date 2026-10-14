@@ -12,7 +12,7 @@ Instead of manually importing static `.ics` files, subscribe using the raw calen
 
 <p align="center">
   <a href="https://github.com/GreenyNg/research-opportunities/raw/main/research_calendar_master.ics">
-    <img src="https://img.shields.io/badge/📅_Subscribe_to_Calendar-238636?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Subscribe to Calendar" />
+    <img src="https://img.shields.io/badge/⬇️_Download_.ICS_File-238636?style=for-the-badge&logoColor=white" alt="Download .ics Calendar File" />
   </a>
 </p>
 
