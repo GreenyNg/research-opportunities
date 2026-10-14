@@ -1,9 +1,8 @@
-```markdown
 # 🌍 AI & STEM Research Internship Deadlines & Master Tracker
 
 A curated, automatically updating iCalendar (`.ics`) feed and opportunity repository tracking key application deadlines, requirements, and direct application links for top global research internships, pre-docs, residencies, and fellowships across Artificial Intelligence, Machine Learning, and Computer Science.
 
-Designed especially for undergraduate and graduate researchers targeting tracks like **Data Management, Recommendation Systems, Machine Learning Systems, and AI Alignment**.
+Designed for undergraduate and graduate researchers targeting disciplines such as Data Management, Machine Learning Systems, Computer Vision, NLP, and AI Alignment.
 
 ---
 
@@ -11,10 +10,13 @@ Designed especially for undergraduate and graduate researchers targeting tracks 
 
 Instead of manually importing static `.ics` files, subscribe using the raw calendar feed URL below. Any new deadline or correction pushed to this repository will automatically sync with your calendar application.
 
-```text
-[https://raw.githubusercontent.com/GreenyNg/research-opportunities/main/research_calendar_master.ics](https://raw.githubusercontent.com/GreenyNg/research-opportunities/main/research_calendar_master.ics)
+<p align="center">
+  <a href="https://raw.githubusercontent.com/GreenyNg/research-opportunities/main/research_calendar_master.ics">
+    <img src="https://img.shields.io/badge/📅_Subscribe_to_Calendar-238636?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Subscribe to Calendar" />
+  </a>
+</p>
 
-```
+---
 
 ### Quick Setup Instructions
 
@@ -29,7 +31,7 @@ Instead of manually importing static `.ics` files, subscribe using the raw calen
 
 ## ✨ Features
 
-* **Yearly Recurrence (`RRULE:FREQ=YEARLY`)**: All events recur annually so you can plan across your 200, 300, and 400 undergraduate levels and beyond.
+* **Yearly Recurrence (`RRULE:FREQ=YEARLY`)**: All events recur annually so users can plan across continuous academic cycles.
 * **Two-Stage Alarms**: Built-in alerts set for **14 days before** (preparation reminder) and **3 days before** (final submission check).
 * **Rich Event Metadata**: Every calendar entry contains eligibility prerequisites, required documents (CV, transcripts, recommendations), and direct application links.
 * **Floating Local Time**: Events are timed at 09:00 AM local time to prevent unwanted shifts across time zones.
@@ -76,29 +78,6 @@ Instead of manually importing static `.ics` files, subscribe using the raw calen
 * **Michael Taiwo (MT) Scholarships** (GRE/IELTS & Grad application fees funding)
 * **Knight-Hennessy Scholars (Stanford University)**
 * **Lateef Jakande Leadership Academy (LJLA)**
-
----
-
-## 🗺️ Career Roadmap: Data Management & Machine Learning
-
-Target Track: **Data Management & ML | Focus: Recommendation Systems (RecSys)**
-
-```
-Phase 1: Orientation & Community (ML Collective Africa, Discord, Reading Groups)
-   │
-Phase 2: Math & Foundations (MIT OCW 18.06 Linear Algebra, Math for CS, Python ML Stack)
-   │
-Phase 3: Structured Research (CS197 Foundations Study Group, Lit Review, Capstone)
-   │
-Phase 4: Proof of Work (Kaggle Competition, GitHub Portfolio, Paper Reproduction)
-   │
-Phase 5: Focus Group & Artifact (3–5 Member RecSys Group, Workshop Paper Submission)
-   │
-Phase 6: Mentorship & External Programs (Google TRC, ETH SSRF, Summer @ EPFL, Max Planck)
-   │
-Phase 7: Career & Grad Push (MSc/PhD Applications, MT Scholarships, Residencies)
-
-```
 
 ---
 
