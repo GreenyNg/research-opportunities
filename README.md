@@ -11,8 +11,8 @@ Designed for undergraduate and graduate researchers targeting disciplines such a
 Instead of manually importing static `.ics` files, subscribe using the raw calendar feed URL below. Any new deadline or correction pushed to this repository will automatically sync with your calendar application.
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/GreenyNg/research-opportunities/main/research_calendar_master.ics" download="research_calendar_master.ics">
-    <img src="https://img.shields.io/badge/⬇️_Direct_Download_.ICS-238636?style=for-the-badge&logoColor=white" alt="Download Calendar" />
+  <a href="webcal://raw.githubusercontent.com/GreenyNg/research-opportunities/main/research_calendar_master.ics">
+    <img src="https://img.shields.io/badge/📅_One--Click_Subscribe-238636?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="One-Click Calendar Subscribe" />
   </a>
 </p>
 
