@@ -110,8 +110,6 @@ Contributions and updates are very welcome! If you know of an opportunity or not
 
 ---
 
-## 🙏 Acknowledgements & Attribution
-
 ## 🙏 Acknowledgments & Credits
 
 - Special thanks to the original compiler of the foundational [Research Internships 2026 Google Doc](https://docs.google.com/document/d/16odpvFaFm6ZKxdAPfZPCzk_D0bhnIQSk6-5rfCFBaNE/edit?tab=t.5zd9mj1gqbal), whose initial compilation inspired this automated calendar feed. 
