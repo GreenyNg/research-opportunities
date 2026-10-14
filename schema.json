@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OpportunityList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "summary", "month", "day", "description"],
+    "properties": {
+      "id": { "type": "string" },
+      "summary": { "type": "string" },
+      "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+      "day": { "type": "integer", "minimum": 1, "maximum": 31 },
+      "description": { "type": "string" }
+    }
+  }
+}

@@ -11,34 +11,286 @@
     "summary": "DEADLINE: SPAR AI Risks Research Program",
     "month": 1,
     "day": 14,
-    "description": "Focus: AI Safety & Alignment.\\nRequirements: Application form, technical background statement.\\nPortal: https://sparai.org/"
+    "description": "Focus: AI Safety & Alignment (Unpaid research program).\\nRequirements: Application form, technical background statement.\\nPortal: https://sparai.org/"
+  },
+  {
+    "id": "danish-pruthi",
+    "summary": "DEADLINE: Research Associate (Pre-doc) - Danish Pruthi Lab",
+    "month": 1,
+    "day": 15,
+    "description": "Focus: NLP, Interpretability, Model Evaluation.\\nRequirements: CV, Academic Transcript, 1 referee contact, Motivation statement (250 words).\\nPortal: https://danishpruthi.com/"
+  },
+  {
+    "id": "pibbss",
+    "summary": "DEADLINE: PIBBSS Summer Research Fellowship",
+    "month": 1,
+    "day": 17,
+    "description": "Focus: Complex Systems, Alignment, Biological & Artificial Intelligence.\\nRequirements: CV/Resume, Personal Statement, Past work/code samples.\\nPortal: https://princint.ai/programs/fellowship/"
+  },
+  {
+    "id": "mats-summer",
+    "summary": "DEADLINE: MATS Summer Cohort (ML Alignment & Theory)",
+    "month": 1,
+    "day": 18,
+    "description": "Focus: Technical AI Alignment, Mechanistic Interpretability, RL.\\nRequirements: CV/Resume, 2 referee contacts, selection problems.\\nPortal: https://www.matsprogram.org/apply"
+  },
+  {
+    "id": "vector-jan",
+    "summary": "DEADLINE: Vector Institute Research Internship (Spring Cycle)",
+    "month": 1,
+    "day": 22,
+    "description": "Focus: Deep Learning, Recommendation Systems, AI Theory.\\nRequirements: Academic Transcript, CV, Research Statement (optional for UG), 2 letters of recommendation.\\nPortal: https://vectorinstitute.ai/programs/research-internships/"
+  },
+  {
+    "id": "rochester-chem",
+    "summary": "DEADLINE: Univ. of Rochester Summer Research (i-Scholar)",
+    "month": 1,
+    "day": 23,
+    "description": "Focus: Chemistry & Computational Sciences.\\nRequirements: CV, Academic Transcript, 2 referee contacts.\\nPortal: https://www.sas.rochester.edu/chm/undergraduate/i-scholar.html"
+  },
+  {
+    "id": "cern-openlab",
+    "summary": "DEADLINE: CERN OpenLab & Summer Student Programme",
+    "month": 1,
+    "day": 26,
+    "description": "Focus: Large-scale Computing, Data Management, High-performance ML.\\nRequirements: Academic Transcript, CV, Motivation Letter, Reference Letters.\\nPortal: https://openlab.cern/cern-openlab-summer-student-programme/"
+  },
+  {
+    "id": "asci-aalto",
+    "summary": "DEADLINE: AScI Summer Research Programme (Aalto University)",
+    "month": 1,
+    "day": 31,
+    "description": "Focus: Computer Science, Machine Learning, Data Science.\\nRequirements: Academic Transcript, CV, Motivation Letter, 1 Reference Letter.\\nPortal: https://www.aalto.fi/en/aalto-science-institute-asci/aalto-science-institute-international-summer-research-programme"
+  },
+  {
+    "id": "desy-summer",
+    "summary": "DEADLINE: DESY Summer Student Programme (Germany)",
+    "month": 1,
+    "day": 31,
+    "description": "Focus: Scientific Computing, Data Pipelines, Acceleration & ML.\\nEligibility: Late Bachelor / Senior Undergrads.\\nBenefits: Daily allowance + free on-site hostel accommodation.\\nPortal: https://www.desy.de/"
+  },
+  {
+    "id": "ista-internship",
+    "summary": "DEADLINE: ISTA ISTernship Summer Program (Austria)",
+    "month": 2,
+    "day": 5,
+    "description": "Focus: CS, Data Science, Machine Learning, Mathematical Foundations.\\nEligibility: Bachelor students completed >= 4 semesters.\\nBenefits: Fully funded monthly stipend, accommodation, travel support.\\nPortal: https://ista.ac.at/en/education/internships/"
+  },
+  {
+    "id": "ucla-rips",
+    "summary": "DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore)",
+    "month": 2,
+    "day": 12,
+    "description": "Focus: Applied Machine Learning, Data Analytics, Algorithms in Industry Projects.\\nEligibility: Undergraduates worldwide.\\nBenefits: Full travel, housing, and generous stipend.\\nPortal: https://www.ipam.ucla.edu/programs/student-research-programs/"
+  },
+  {
+    "id": "edge-summer",
+    "summary": "DEADLINE: EDGE Summer Program",
+    "month": 2,
+    "day": 13,
+    "description": "Eligibility: Strictly for women with goals of attaining a PhD in mathematical sciences.\\nRequirements: Application form, CV/Resume, Transcript, 2 referee contacts.\\nPortal: https://www.edgeforwomen.org/summer-session/"
+  },
+  {
+    "id": "cmu-lti",
+    "summary": "DEADLINE: CMU LTI Language Technology for All Internship",
+    "month": 2,
+    "day": 20,
+    "description": "Focus: NLP, Language Technologies, Representation Learning.\\nRequirements: CV, Academic Transcript, Short Answer Prompts.\\nPortal: https://lti.cmu.edu/news-and-events/news/2026-02-03-lt-for-all.html"
+  },
+  {
+    "id": "google-africa",
+    "summary": "DEADLINE: Google Research Africa Student Researcher",
+    "month": 2,
+    "day": 26,
+    "description": "Focus: Machine Learning, African Language Tech, AI Systems.\\nRequirements: Academic Transcript, CV/Resume, Motivation Letter (apply ~1 month early).\\nPortal: https://www.google.com/about/careers/applications/jobs/results/93865849051325126-student-researcher/"
+  },
+  {
+    "id": "ictp-diploma",
+    "summary": "DEADLINE: ICTP Postgraduate Diploma Programme",
+    "month": 2,
+    "day": 28,
+    "description": "Focus: Theoretical Physics and Mathematics.\\nRequirements: BSc or MSc, under age 28, Transcript, 2 recommendation letters, course certifications.\\nPortal: https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme"
+  },
+  {
+    "id": "mbzuai-ugrip",
+    "summary": "DEADLINE: MBZUAI UGRIP (Undergraduate Research Internship)",
+    "month": 2,
+    "day": 28,
+    "description": "Focus: Machine Learning, NLP, Computer Vision.\\nEligibility: Penultimate year STEM undergraduate, CGPA >= 3.5/4.0.\\nRequirements: Academic Transcript, SOP, University Admission Letter, Passport.\\nPortal: https://mbzuai.ac.ae/ugrip/"
+  },
+  {
+    "id": "caltech-surf",
+    "summary": "DEADLINE: Caltech SURF (Summer Undergraduate Research)",
+    "month": 3,
+    "day": 1,
+    "description": "Focus: Fundamental Computing, Applied AI, Algorithms.\\nRequirements: Contact Caltech faculty mentor in fall, research proposal, 2 recommendation letters.\\nPortal: https://sfp.caltech.edu/undergraduate-research/programs/surf"
   },
   {
     "id": "insait-surf",
     "summary": "DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Network)",
     "month": 3,
     "day": 8,
-    "description": "Focus: Foundation Models, Machine Learning, Systems.\\nEligibility: Undergraduates worldwide (Min GPA 3.5).\\nBenefits: €1,500/mo stipend + housing + flight.\\nPortal: https://insait.ai/surf/"
+    "description": "Focus: Foundation Models, Machine Learning, Systems, Theory.\\nEligibility: Undergraduates worldwide, Min GPA 3.5/4.0.\\nBenefits: €1,500/month stipend, accommodation, and travel covered.\\nRequirements: CV, Transcript, 1-page motivation letter.\\nPortal: https://insait.ai/surf/"
+  },
+  {
+    "id": "reneu-uchicago",
+    "summary": "DEADLINE: RENEU - UChicago (Nigerian Undergrads)",
+    "month": 3,
+    "day": 9,
+    "description": "Focus: Materials Science, ChemE, Energy & ML.\\nEligibility: 4th/5th year Nigerian Undergrads intending to pursue PhD; First Class or 2:1 track.\\nRequirements: CV, Academic Transcript, Statement.\\nPortal: https://amanchukwu.uchicago.edu/outreach/researchexperience/"
+  },
+  {
+    "id": "lasr-labs",
+    "summary": "DEADLINE: LASR Labs Summer Internship",
+    "month": 3,
+    "day": 30,
+    "description": "Focus: AI Safety, Security, Governance.\\nRequirements: Essay responses, CV/Resume.\\nPortal: https://www.lasrlabs.org/"
+  },
+  {
+    "id": "mak-ai",
+    "summary": "DEADLINE: Mak-AI Undergraduate Internship Program",
+    "month": 4,
+    "day": 3,
+    "description": "Focus: Applied Machine Learning, Edge AI, African Context Solutions.\\nRequirements: CV, Academic Transcript, Statement.\\nPortal: https://air.ug/?page_id=1819"
+  },
+  {
+    "id": "cambridge-era",
+    "summary": "DEADLINE: Cambridge ERA:AI Summer Fellowship",
+    "month": 4,
+    "day": 12,
+    "description": "Focus: Existential Risk, Technical AI Alignment, Policy.\\nRequirements: Essay questions, 2 referee contacts.\\nPortal: https://erafellowship.org/"
+  },
+  {
+    "id": "elite-lab",
+    "summary": "DEADLINE: ELITE Research Lab Internship",
+    "month": 4,
+    "day": 15,
+    "description": "Tracks: CS Research Intern, Economics & Business Research.\\nRequirements: Short answer prompts, CV.\\nPortal: https://lnkd.in/g97jvByR"
+  },
+  {
+    "id": "ljla-lagos",
+    "summary": "DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fellowship",
+    "month": 5,
+    "day": 16,
+    "description": "Post-graduation Target: 1-year public sector leadership.\\nEligibility: Nigerian, 25-35 yrs, Bachelor/HND, NYSC complete + 2 yrs work exp.\\nPortal: https://www.ljla.academy/application2026/"
+  },
+  {
+    "id": "rbc-borealis",
+    "summary": "DEADLINE: RBC Borealis ML Research Internship",
+    "month": 5,
+    "day": 17,
+    "description": "Focus: Applied Machine Learning, RecSys, NLP.\\nEligibility: Graduate students (MSc/PhD).\\nRequirements: Resume/CV, Research portfolio.\\nPortal: https://rbcborealis.com/internships/"
+  },
+  {
+    "id": "vector-fall",
+    "summary": "DEADLINE: Vector Institute Internship (Fall Intake)",
+    "month": 5,
+    "day": 19,
+    "description": "Focus: Machine Learning, Recommenders, Deep Learning.\\nRequirements: CV, Academic Transcript, Research statement (250-400 words), 2 referees.\\nPortal: https://vectorinstitute.ai/research-talent/students/ai-research-internships/"
+  },
+  {
+    "id": "illumina-lab",
+    "summary": "DEADLINE: Illumina Health Lab Internship",
+    "month": 6,
+    "day": 1,
+    "description": "Focus: Computational Biology & Machine Learning in Genomics.\\nRequirements: Short answer prompts, CV.\\nPortal: https://lnkd.in/e2fjwXMw"
+  },
+  {
+    "id": "kempner-ai",
+    "summary": "DEADLINE: Kempner AI Fellows Program (Harvard)",
+    "month": 6,
+    "day": 1,
+    "description": "Focus: Natural and Artificial Intelligence.\\nRequirements: CV, Academic Transcripts, Research statement, 1-2 references.\\nPortal: https://kempnerinstitute.harvard.edu/"
+  },
+  {
+    "id": "vector-winter",
+    "summary": "DEADLINE: Vector Institute Internship (Winter Intake)",
+    "month": 6,
+    "day": 22,
+    "description": "Focus: Machine Learning.\\nRequirements: CV, Academic Transcript, Research statement, 2 referees.\\nPortal: https://vectorinstitute.ai/research-talent/students/ai-research-internships/"
+  },
+  {
+    "id": "mt-scholarships",
+    "summary": "DEADLINE: Michael Taiwo (MT) Scholarships",
+    "month": 6,
+    "day": 29,
+    "description": "Postgrad funding: Covers GRE/GMAT, IELTS/TOEFL, and 6 grad school application fees.\\nEligibility: Final-year undergrads or recent graduates with first-class/2:1 track.\\nRequirements: Academic CV, transcripts, essays, personal statement.\\nPortal: https://mtscholarships.org/"
+  },
+  {
+    "id": "bigtheta",
+    "summary": "DEADLINE: Big Theta Research Fellowship",
+    "month": 8,
+    "day": 1,
+    "description": "Focus: Theoretical CS and Machine Learning Research Mentorship.\\nRequirements: Academic CV, Statement of Research Interest.\\nPortal: https://bigtheta.org/"
+  },
+  {
+    "id": "caar-scholars",
+    "summary": "DEADLINE: CAAR Scholars Junior Research Fellow Programme",
+    "month": 9,
+    "day": 25,
+    "description": "Focus: Applied research, mentorship, and foundational skills for emerging African researchers.\\nRequirements: Academic CV, transcripts, statement of research interests.\\nPortal: https://www.caarsscholars.org/"
   },
   {
     "id": "goldman-sachs",
-    "summary": "DEADLINE: Goldman Sachs Summer Analyst (EMEA Engineering)",
+    "summary": "DEADLINE: Goldman Sachs Summer Analyst Programme (EMEA Engineering)",
     "month": 10,
     "day": 4,
-    "description": "Focus: Software Engineering, Data & Algorithms.\\nTarget: Penultimate year undergrads.\\nPrep: NeetCode 150 / LeetCode, HireVue.\\nPortal: https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme"
+    "description": "Focus: Software Engineering, Data & Algorithms.\\nTarget: Penultimate year undergraduate students.\\nPreparation: NeetCode 150 / LeetCode (Arrays, Hashmaps, Strings, LinkedList), HireVue behavioral, SuperDay.\\nPortal: https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme"
+  },
+  {
+    "id": "knight-hennessy",
+    "summary": "DEADLINE: Knight-Hennessy Scholars (Stanford University)",
+    "month": 10,
+    "day": 6,
+    "description": "Postgrad Target: Full funding for Stanford Master's/PhD.\\nRequirements: Essays, video statement, separate graduate application to Stanford CS/Data science.\\nPortal: https://knight-hennessy.stanford.edu/"
   },
   {
     "id": "oist-japan",
     "summary": "DEADLINE: OIST Research Internship Program (Japan)",
     "month": 10,
     "day": 15,
-    "description": "Focus: Computational Sciences, AI, STEM.\\nEligibility: Final 2 years of Bachelor's or Master's.\\nBenefits: ¥2,400 daily allowance, flights, housing.\\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship"
+    "description": "Focus: Computational Sciences, AI, STEM.\\nEligibility: Final 2 years of Bachelor's or Master's.\\nBenefits: ¥2,400 daily allowance, furnished accommodation, round-trip flights.\\nRequirements: Transcript, SOP, CV, 1+ recommendation letters.\\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship"
+  },
+  {
+    "id": "digital-ai",
+    "summary": "DEADLINE: Digital, AI and Innovation Internship (Remote)",
+    "month": 10,
+    "day": 30,
+    "description": "Focus: AI deployment & tooling.\\nRequirements: CV, Cover letter, role-specific questionnaire.\\nPortal: https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/33001"
+  },
+  {
+    "id": "max-planck-nov",
+    "summary": "DEADLINE: Max Planck Institute Research Internship (CS/MPI)",
+    "month": 11,
+    "day": 1,
+    "description": "Focus: Machine Learning, Computer Science, Intelligent Systems.\\nRequirements: CV, Academic Transcript, Statement of Purpose, 2 referee contacts.\\nPortal: https://www.cis.mpg.de/internships/"
+  },
+  {
+    "id": "max-planck-cactus",
+    "summary": "DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart)",
+    "month": 11,
+    "day": 16,
+    "description": "Focus: AI, Machine Learning, Cognitive Systems & Data.\\nEligibility: Undergrads (completed >= 4 semesters / 200–300 level).\\nBenefits: €1,350/month, accommodation, health insurance, travel support.\\nPortal: https://www.tuebingen.mpg.de/"
+  },
+  {
+    "id": "epfl-summer",
+    "summary": "DEADLINE: Summer @ EPFL Research Fellowship (Switzerland)",
+    "month": 11,
+    "day": 30,
+    "description": "Focus: Computer Science, Information Systems, Machine Learning.\\nRequirements: Academic Transcript, CV/Resume, Motivation Letter, References.\\nPortal: https://summer.epfl.ch/apply.html"
   },
   {
     "id": "eth-zurich",
     "summary": "DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF)",
     "month": 12,
     "day": 16,
-    "description": "Focus: Data Management & Machine Learning, Systems, Theory.\\nRequirements: Academic Transcript, CV, Motivation Letter.\\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html"
+    "description": "Focus Areas: Data Management & Machine Learning, Intelligent Systems, Theory.\\nRequirements: Academic Transcript, CV, Motivation Letter.\\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html"
+  },
+  {
+    "id": "ucl-gatsby",
+    "summary": "DEADLINE: UCL Gatsby Computational Neuroscience & ML Internship",
+    "month": 12,
+    "day": 18,
+    "description": "Focus: Theoretical Machine Learning, Deep Math, Probabilistic Models.\\nRequirements: Deep math foundation, CV, transcripts.\\nPortal: https://www.ucl.ac.uk/life-sciences/gatsby/study-and-work/vacancies"
   }
 ]

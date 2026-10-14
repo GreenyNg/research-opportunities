@@ -3,7 +3,6 @@ VERSION:2.0
 PRODID:-//AI and CS Research Master Roadmap Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-
 BEGIN:VEVENT
 UID:recur-base-fellowship@research
 DTSTAMP:20260101T000000Z
@@ -15,15 +14,14 @@ DESCRIPTION:Focus: AI Safety, Ethics & Governance.\nRequirements: CV, 1 referee 
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: BASE Fellowship deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: BASE Fellowship deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-spar-ai@research
 DTSTAMP:20260101T000000Z
@@ -31,19 +29,18 @@ DTSTART:20260114T090000
 DTEND:20260114T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: SPAR AI Risks Research Program
-DESCRIPTION:Focus: AI Safety & Alignment.\nRequirements: Application form, technical background statement.\nPortal: https://sparai.org/
+DESCRIPTION:Focus: AI Safety & Alignment (Unpaid research program).\nRequirements: Application form, technical background statement.\nPortal: https://sparai.org/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: SPAR AI deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: SPAR AI Risks Research Program in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: SPAR AI deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: SPAR AI Risks Research Program in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-danish-pruthi@research
 DTSTAMP:20260101T000000Z
@@ -55,15 +52,14 @@ DESCRIPTION:Focus: NLP, Interpretability, Model Evaluation.\nRequirements: CV, A
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Danish Pruthi Pre-doc deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Research Associate (Pre-doc) - Danish Pruthi Lab in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Danish Pruthi Pre-doc deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Research Associate (Pre-doc) - Danish Pruthi Lab in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-pibbss@research
 DTSTAMP:20260101T000000Z
@@ -75,15 +71,14 @@ DESCRIPTION:Focus: Complex Systems, Alignment, Biological & Artificial Intellige
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: PIBBSS Fellowship deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: PIBBSS Summer Research Fellowship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: PIBBSS Fellowship deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: PIBBSS Summer Research Fellowship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-mats-summer@research
 DTSTAMP:20260101T000000Z
@@ -95,15 +90,14 @@ DESCRIPTION:Focus: Technical AI Alignment, Mechanistic Interpretability, RL.\nRe
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: MATS Summer deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: MATS Summer Cohort (ML Alignment & Theory) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: MATS Summer deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: MATS Summer Cohort (ML Alignment & Theory) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-vector-jan@research
 DTSTAMP:20260101T000000Z
@@ -115,15 +109,14 @@ DESCRIPTION:Focus: Deep Learning, Recommendation Systems, AI Theory.\nRequiremen
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Vector Institute deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Vector Institute Research Internship (Spring Cycle) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Vector Institute deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Vector Institute Research Internship (Spring Cycle) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-rochester-chem@research
 DTSTAMP:20260101T000000Z
@@ -135,15 +128,14 @@ DESCRIPTION:Focus: Chemistry & Computational Sciences.\nRequirements: CV, Academ
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Rochester Summer Research deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Univ. of Rochester Summer Research (i-Scholar) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Rochester Summer Research deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Univ. of Rochester Summer Research (i-Scholar) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-cern-openlab@research
 DTSTAMP:20260101T000000Z
@@ -155,15 +147,14 @@ DESCRIPTION:Focus: Large-scale Computing, Data Management, High-performance ML.\
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: CERN OpenLab deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: CERN OpenLab & Summer Student Programme in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: CERN OpenLab deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: CERN OpenLab & Summer Student Programme in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-asci-aalto@research
 DTSTAMP:20260101T000000Z
@@ -175,15 +166,14 @@ DESCRIPTION:Focus: Computer Science, Machine Learning, Data Science.\nRequiremen
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Aalto AScI deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: AScI Summer Research Programme (Aalto University) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Aalto AScI deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: AScI Summer Research Programme (Aalto University) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-desy-summer@research
 DTSTAMP:20260101T000000Z
@@ -195,15 +185,14 @@ DESCRIPTION:Focus: Scientific Computing, Data Pipelines, Acceleration & ML.\nEli
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DESY Summer deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: DESY Summer Student Programme (Germany) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DESY Summer deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: DESY Summer Student Programme (Germany) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-ista-internship@research
 DTSTAMP:20260101T000000Z
@@ -215,15 +204,14 @@ DESCRIPTION:Focus: CS, Data Science, Machine Learning, Mathematical Foundations.
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: ISTA ISTernship deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: ISTA ISTernship Summer Program (Austria) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: ISTA ISTernship deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: ISTA ISTernship Summer Program (Austria) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-ucla-rips@research
 DTSTAMP:20260101T000000Z
@@ -235,15 +223,14 @@ DESCRIPTION:Focus: Applied Machine Learning, Data Analytics, Algorithms in Indus
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: IPAM RIPS deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: IPAM RIPS deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-edge-summer@research
 DTSTAMP:20260101T000000Z
@@ -255,15 +242,14 @@ DESCRIPTION:Eligibility: Strictly for women with goals of attaining a PhD in mat
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: EDGE Summer Program deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: EDGE Summer Program in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: EDGE Summer Program deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: EDGE Summer Program in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-cmu-lti@research
 DTSTAMP:20260101T000000Z
@@ -275,15 +261,14 @@ DESCRIPTION:Focus: NLP, Language Technologies, Representation Learning.\nRequire
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: CMU LTI deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: CMU LTI Language Technology for All Internship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: CMU LTI deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: CMU LTI Language Technology for All Internship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-google-africa@research
 DTSTAMP:20260101T000000Z
@@ -295,15 +280,14 @@ DESCRIPTION:Focus: Machine Learning, African Language Tech, AI Systems.\nRequire
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Google Research Africa deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Google Research Africa Student Researcher in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Google Research Africa deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Google Research Africa Student Researcher in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-ictp-diploma@research
 DTSTAMP:20260101T000000Z
@@ -315,15 +299,14 @@ DESCRIPTION:Focus: Theoretical Physics and Mathematics.\nRequirements: BSc or MS
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: ICTP Diploma Programme deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: ICTP Postgraduate Diploma Programme in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: ICTP Diploma Programme deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: ICTP Postgraduate Diploma Programme in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-mbzuai-ugrip@research
 DTSTAMP:20260101T000000Z
@@ -335,15 +318,14 @@ DESCRIPTION:Focus: Machine Learning, NLP, Computer Vision.\nEligibility: Penulti
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: MBZUAI UGRIP deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: MBZUAI UGRIP (Undergraduate Research Internship) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: MBZUAI UGRIP deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: MBZUAI UGRIP (Undergraduate Research Internship) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-caltech-surf@research
 DTSTAMP:20260101T000000Z
@@ -355,15 +337,14 @@ DESCRIPTION:Focus: Fundamental Computing, Applied AI, Algorithms.\nRequirements:
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Caltech SURF deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Caltech SURF (Summer Undergraduate Research) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Caltech SURF deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Caltech SURF (Summer Undergraduate Research) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-insait-surf@research
 DTSTAMP:20260101T000000Z
@@ -375,15 +356,14 @@ DESCRIPTION:Focus: Foundation Models, Machine Learning, Systems, Theory.\nEligib
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: INSAIT SURF deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Network) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: INSAIT SURF deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Network) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-reneu-uchicago@research
 DTSTAMP:20260101T000000Z
@@ -395,15 +375,14 @@ DESCRIPTION:Focus: Materials Science, ChemE, Energy & ML.\nEligibility: 4th/5th 
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: RENEU UChicago deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: RENEU - UChicago (Nigerian Undergrads) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: RENEU UChicago deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: RENEU - UChicago (Nigerian Undergrads) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-lasr-labs@research
 DTSTAMP:20260101T000000Z
@@ -415,15 +394,14 @@ DESCRIPTION:Focus: AI Safety, Security, Governance.\nRequirements: Essay respons
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: LASR Labs deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: LASR Labs Summer Internship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: LASR Labs deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: LASR Labs Summer Internship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-mak-ai@research
 DTSTAMP:20260101T000000Z
@@ -435,15 +413,14 @@ DESCRIPTION:Focus: Applied Machine Learning, Edge AI, African Context Solutions.
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Mak-AI Internship deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Mak-AI Undergraduate Internship Program in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Mak-AI Internship deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Mak-AI Undergraduate Internship Program in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-cambridge-era@research
 DTSTAMP:20260101T000000Z
@@ -455,15 +432,14 @@ DESCRIPTION:Focus: Existential Risk, Technical AI Alignment, Policy.\nRequiremen
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Cambridge ERA:AI deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Cambridge ERA:AI Summer Fellowship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Cambridge ERA:AI deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Cambridge ERA:AI Summer Fellowship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-elite-lab@research
 DTSTAMP:20260101T000000Z
@@ -475,15 +451,14 @@ DESCRIPTION:Tracks: CS Research Intern, Economics & Business Research.\nRequirem
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: ELITE Research Lab deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: ELITE Research Lab Internship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: ELITE Research Lab deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: ELITE Research Lab Internship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-ljla-lagos@research
 DTSTAMP:20260101T000000Z
@@ -495,15 +470,14 @@ DESCRIPTION:Post-graduation Target: 1-year public sector leadership.\nEligibilit
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: LJLA Fellowship deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fellowship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: LJLA Fellowship deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fellowship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-rbc-borealis@research
 DTSTAMP:20260101T000000Z
@@ -515,15 +489,14 @@ DESCRIPTION:Focus: Applied Machine Learning, RecSys, NLP.\nEligibility: Graduate
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: RBC Borealis deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: RBC Borealis ML Research Internship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: RBC Borealis deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: RBC Borealis ML Research Internship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-vector-fall@research
 DTSTAMP:20260101T000000Z
@@ -535,15 +508,14 @@ DESCRIPTION:Focus: Machine Learning, Recommenders, Deep Learning.\nRequirements:
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Vector Institute Fall deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Vector Institute Internship (Fall Intake) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Vector Institute Fall deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Vector Institute Internship (Fall Intake) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-illumina-lab@research
 DTSTAMP:20260101T000000Z
@@ -555,15 +527,14 @@ DESCRIPTION:Focus: Computational Biology & Machine Learning in Genomics.\nRequir
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Illumina Health Lab deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Illumina Health Lab Internship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Illumina Health Lab deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Illumina Health Lab Internship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-kempner-ai@research
 DTSTAMP:20260101T000000Z
@@ -575,15 +546,14 @@ DESCRIPTION:Focus: Natural and Artificial Intelligence.\nRequirements: CV, Acade
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Kempner AI Fellows deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Kempner AI Fellows Program (Harvard) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Kempner AI Fellows deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Kempner AI Fellows Program (Harvard) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-vector-winter@research
 DTSTAMP:20260101T000000Z
@@ -595,15 +565,14 @@ DESCRIPTION:Focus: Machine Learning.\nRequirements: CV, Academic Transcript, Res
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Vector Winter deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Vector Institute Internship (Winter Intake) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Vector Winter deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Vector Institute Internship (Winter Intake) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-mt-scholarships@research
 DTSTAMP:20260101T000000Z
@@ -615,15 +584,14 @@ DESCRIPTION:Postgrad funding: Covers GRE/GMAT, IELTS/TOEFL, and 6 grad school ap
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: MT Scholarships deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Michael Taiwo (MT) Scholarships in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: MT Scholarships deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Michael Taiwo (MT) Scholarships in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-bigtheta@research
 DTSTAMP:20260101T000000Z
@@ -635,15 +603,14 @@ DESCRIPTION:Focus: Theoretical CS and Machine Learning Research Mentorship.\nReq
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Big Theta application window closes in 14 days
+DESCRIPTION:Reminder: DEADLINE: Big Theta Research Fellowship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Big Theta application window closes in 3 days
+DESCRIPTION:Urgent: DEADLINE: Big Theta Research Fellowship in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-caar-scholars@research
 DTSTAMP:20260101T000000Z
@@ -651,19 +618,18 @@ DTSTART:20260925T090000
 DTEND:20260925T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: CAAR Scholars Junior Research Fellow Programme
-DESCRIPTION:Focus: Applied research, mentorship, and foundational skills for emerging African researchers.\nRequirements: Academic CV, transcripts, statement of research interests.\nPortal: https://www.caarscholars.org/
+DESCRIPTION:Focus: Applied research, mentorship, and foundational skills for emerging African researchers.\nRequirements: Academic CV, transcripts, statement of research interests.\nPortal: https://www.caarsscholars.org/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: CAAR Scholars deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: CAAR Scholars Junior Research Fellow Programme in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: CAAR Scholars deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: CAAR Scholars Junior Research Fellow Programme in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-goldman-sachs@research
 DTSTAMP:20260101T000000Z
@@ -675,15 +641,14 @@ DESCRIPTION:Focus: Software Engineering, Data & Algorithms.\nTarget: Penultimate
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Goldman Sachs Summer Analyst deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Goldman Sachs Summer Analyst Programme (EMEA Engineering) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Goldman Sachs Summer Analyst deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Goldman Sachs Summer Analyst Programme (EMEA Engineering) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-knight-hennessy@research
 DTSTAMP:20260101T000000Z
@@ -695,15 +660,14 @@ DESCRIPTION:Postgrad Target: Full funding for Stanford Master's/PhD.\nRequiremen
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Knight-Hennessy deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Knight-Hennessy Scholars (Stanford University) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Knight-Hennessy deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Knight-Hennessy Scholars (Stanford University) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-oist-japan@research
 DTSTAMP:20260101T000000Z
@@ -715,15 +679,14 @@ DESCRIPTION:Focus: Computational Sciences, AI, STEM.\nEligibility: Final 2 years
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: OIST Internship deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: OIST Research Internship Program (Japan) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: OIST Internship deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: OIST Research Internship Program (Japan) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-digital-ai@research
 DTSTAMP:20260101T000000Z
@@ -735,15 +698,14 @@ DESCRIPTION:Focus: AI deployment & tooling.\nRequirements: CV, Cover letter, rol
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Digital AI Innovation Internship deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Digital, AI and Innovation Internship (Remote) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Digital AI Innovation Internship deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Digital, AI and Innovation Internship (Remote) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-max-planck-nov@research
 DTSTAMP:20260101T000000Z
@@ -755,15 +717,14 @@ DESCRIPTION:Focus: Machine Learning, Computer Science, Intelligent Systems.\nReq
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Max Planck deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Max Planck Institute Research Internship (CS/MPI) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Max Planck deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Max Planck Institute Research Internship (CS/MPI) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-max-planck-cactus@research
 DTSTAMP:20260101T000000Z
@@ -775,15 +736,14 @@ DESCRIPTION:Focus: AI, Machine Learning, Cognitive Systems & Data.\nEligibility:
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: CaCTüS Internship deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: CaCTüS Internship deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-epfl-summer@research
 DTSTAMP:20260101T000000Z
@@ -795,15 +755,14 @@ DESCRIPTION:Focus: Computer Science, Information Systems, Machine Learning.\nReq
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: Summer @ EPFL deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: Summer @ EPFL Research Fellowship (Switzerland) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: Summer @ EPFL deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: Summer @ EPFL Research Fellowship (Switzerland) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-eth-zurich@research
 DTSTAMP:20260101T000000Z
@@ -815,15 +774,14 @@ DESCRIPTION:Focus Areas: Data Management & Machine Learning, Intelligent Systems
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: ETH Zurich SSRF deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: ETH Zurich SSRF deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF) in 3 days
 END:VALARM
 END:VEVENT
-
 BEGIN:VEVENT
 UID:recur-ucl-gatsby@research
 DTSTAMP:20260101T000000Z
@@ -835,13 +793,12 @@ DESCRIPTION:Focus: Theoretical Machine Learning, Deep Math, Probabilistic Models
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: UCL Gatsby deadline in 14 days
+DESCRIPTION:Reminder: DEADLINE: UCL Gatsby Computational Neuroscience & ML Internship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: UCL Gatsby deadline in 3 days
+DESCRIPTION:Urgent: DEADLINE: UCL Gatsby Computational Neuroscience & ML Internship in 3 days
 END:VALARM
 END:VEVENT
-
 END:VCALENDAR

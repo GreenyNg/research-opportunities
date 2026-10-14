@@ -1,0 +1,42 @@
+name: 🚀 Submit New Opportunity
+description: Suggest a new research internship, fellowship, or pre-doc opportunity
+title: "[New Opportunity]: <Program Name>"
+labels: ["opportunity", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep this tracker alive! Fill out the fields below so we can add it to the calendar.
+  - type: input
+    id: program_name
+    attributes:
+      label: Program Name & Institution
+      placeholder: "e.g., MPI-SWS Summer Internship, Max Planck Institute"
+    validations:
+      required: true
+  - type: input
+    id: portal_url
+    attributes:
+      label: Official Application Link
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Application Deadline Date
+      placeholder: "Month and Day (e.g., November 15 or 11/15)"
+    validations:
+      required: true
+  - type: textarea
+    id: eligibility
+    attributes:
+      label: Eligibility & Stage
+      placeholder: "e.g., Open to 2nd/3rd year undergraduates, min 3.5 GPA, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements / Documents Needed
+      placeholder: "e.g., CV, Transcript, Statement of Purpose, 2 References"
