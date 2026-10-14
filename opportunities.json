@@ -1,0 +1,44 @@
+[
+  {
+    "id": "base-fellowship",
+    "summary": "DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship",
+    "month": 1,
+    "day": 9,
+    "description": "Focus: AI Safety, Ethics & Governance.\\nRequirements: CV, 1 referee contact, essay prompts.\\nPortal: https://airtable.com/app2G9C400ntVfMvm/pagWWSgzzn0NYBnNq/form"
+  },
+  {
+    "id": "spar-ai",
+    "summary": "DEADLINE: SPAR AI Risks Research Program",
+    "month": 1,
+    "day": 14,
+    "description": "Focus: AI Safety & Alignment.\\nRequirements: Application form, technical background statement.\\nPortal: https://sparai.org/"
+  },
+  {
+    "id": "insait-surf",
+    "summary": "DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Network)",
+    "month": 3,
+    "day": 8,
+    "description": "Focus: Foundation Models, Machine Learning, Systems.\\nEligibility: Undergraduates worldwide (Min GPA 3.5).\\nBenefits: €1,500/mo stipend + housing + flight.\\nPortal: https://insait.ai/surf/"
+  },
+  {
+    "id": "goldman-sachs",
+    "summary": "DEADLINE: Goldman Sachs Summer Analyst (EMEA Engineering)",
+    "month": 10,
+    "day": 4,
+    "description": "Focus: Software Engineering, Data & Algorithms.\\nTarget: Penultimate year undergrads.\\nPrep: NeetCode 150 / LeetCode, HireVue.\\nPortal: https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme"
+  },
+  {
+    "id": "oist-japan",
+    "summary": "DEADLINE: OIST Research Internship Program (Japan)",
+    "month": 10,
+    "day": 15,
+    "description": "Focus: Computational Sciences, AI, STEM.\\nEligibility: Final 2 years of Bachelor's or Master's.\\nBenefits: ¥2,400 daily allowance, flights, housing.\\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship"
+  },
+  {
+    "id": "eth-zurich",
+    "summary": "DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF)",
+    "month": 12,
+    "day": 16,
+    "description": "Focus: Data Management & Machine Learning, Systems, Theory.\\nRequirements: Academic Transcript, CV, Motivation Letter.\\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html"
+  }
+]
