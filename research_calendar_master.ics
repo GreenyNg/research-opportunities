@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//AI Research Career Roadmap & Deadlines//EN
+PRODID:-//AI and CS Research Master Roadmap Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
@@ -31,7 +31,7 @@ DTSTART:20260114T090000
 DTEND:20260114T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: SPAR AI Risks Research Program
-DESCRIPTION:Focus: AI Safety & Alignment (Unpaid research program).\nRequirements: Application form, technical background statement.\nPortal: https://sparai.org/
+DESCRIPTION:Focus: AI Safety & Alignment.\nRequirements: Application form, technical background statement.\nPortal: https://sparai.org/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -150,7 +150,7 @@ DTSTAMP:20260101T000000Z
 DTSTART:20260126T090000
 DTEND:20260126T100000
 RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: CERN OpenLab Summer Student Programme
+SUMMARY:DEADLINE: CERN OpenLab & Summer Student Programme
 DESCRIPTION:Focus: Large-scale Computing, Data Management, High-performance ML.\nRequirements: Academic Transcript, CV, Motivation Letter, Reference Letters.\nPortal: https://openlab.cern/cern-openlab-summer-student-programme/
 BEGIN:VALARM
 TRIGGER:-P14D
@@ -181,6 +181,66 @@ BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
 DESCRIPTION:Urgent: Aalto AScI deadline in 3 days
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:recur-desy-summer@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260131T090000
+DTEND:20260131T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: DESY Summer Student Programme (Germany)
+DESCRIPTION:Focus: Scientific Computing, Data Pipelines, Acceleration & ML.\nEligibility: Late Bachelor / Senior Undergrads.\nBenefits: Daily allowance + free on-site hostel accommodation.\nPortal: https://www.desy.de/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DESY Summer deadline in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DESY Summer deadline in 3 days
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:recur-ista-internship@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260205T090000
+DTEND:20260205T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: ISTA ISTernship Summer Program (Austria)
+DESCRIPTION:Focus: CS, Data Science, Machine Learning, Mathematical Foundations.\nEligibility: Bachelor students completed >= 4 semesters.\nBenefits: Fully funded monthly stipend, accommodation, travel support.\nPortal: https://ista.ac.at/en/education/internships/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: ISTA ISTernship deadline in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: ISTA ISTernship deadline in 3 days
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:recur-ucla-rips@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260212T090000
+DTEND:20260212T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore)
+DESCRIPTION:Focus: Applied Machine Learning, Data Analytics, Algorithms in Industry Projects.\nEligibility: Undergraduates worldwide.\nBenefits: Full travel, housing, and generous stipend.\nPortal: https://www.ipam.ucla.edu/programs/student-research-programs/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: IPAM RIPS deadline in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: IPAM RIPS deadline in 3 days
 END:VALARM
 END:VEVENT
 
@@ -281,6 +341,46 @@ BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
 DESCRIPTION:Urgent: MBZUAI UGRIP deadline in 3 days
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:recur-caltech-surf@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260301T090000
+DTEND:20260301T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: Caltech SURF (Summer Undergraduate Research)
+DESCRIPTION:Focus: Fundamental Computing, Applied AI, Algorithms.\nRequirements: Contact Caltech faculty mentor in fall, research proposal, 2 recommendation letters.\nPortal: https://sfp.caltech.edu/undergraduate-research/programs/surf
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Caltech SURF deadline in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: Caltech SURF deadline in 3 days
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:recur-insait-surf@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260308T090000
+DTEND:20260308T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Network)
+DESCRIPTION:Focus: Foundation Models, Machine Learning, Systems, Theory.\nEligibility: Undergraduates worldwide, Min GPA 3.5/4.0.\nBenefits: €1,500/month stipend, accommodation, and travel covered.\nRequirements: CV, Transcript, 1-page motivation letter.\nPortal: https://insait.ai/surf/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: INSAIT SURF deadline in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: INSAIT SURF deadline in 3 days
 END:VALARM
 END:VEVENT
 
@@ -650,7 +750,7 @@ DTSTAMP:20260101T000000Z
 DTSTART:20261101T090000
 DTEND:20261101T100000
 RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: Max Planck Institute Research Internship
+SUMMARY:DEADLINE: Max Planck Institute Research Internship (CS/MPI)
 DESCRIPTION:Focus: Machine Learning, Computer Science, Intelligent Systems.\nRequirements: CV, Academic Transcript, Statement of Purpose, 2 referee contacts.\nPortal: https://www.cis.mpg.de/internships/
 BEGIN:VALARM
 TRIGGER:-P14D
@@ -661,6 +761,26 @@ BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
 DESCRIPTION:Urgent: Max Planck deadline in 3 days
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:recur-max-planck-cactus@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261116T090000
+DTEND:20261116T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart)
+DESCRIPTION:Focus: AI, Machine Learning, Cognitive Systems & Data.\nEligibility: Undergrads (completed >= 4 semesters / 200–300 level).\nBenefits: €1,350/month, accommodation, health insurance, travel support.\nPortal: https://www.tuebingen.mpg.de/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: CaCTüS Internship deadline in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: CaCTüS Internship deadline in 3 days
 END:VALARM
 END:VEVENT
 
