@@ -10,33 +10,32 @@ Designed for undergraduate and graduate researchers targeting disciplines such a
 
 Instead of manually importing static `.ics` files, subscribe using the raw calendar feed URL below. Any new deadline or correction pushed to this repository will automatically sync with your calendar application.
 
+
+
 <p align="center">
-  <!-- 1-Click for Apple Calendar, iOS, macOS, Outlook -->
-  <a href="webcal://raw.githubusercontent.com/GreenyNg/research-opportunities/main/research_calendar_master.ics">
-    <img src="https://img.shields.io/badge/📅_Subscribe_(Apple_/_Outlook)-0078D4?style=for-the-badge&logo=apple&logoColor=white" alt="Subscribe Apple/Outlook" />
-  </a>
-  &nbsp;
   <!-- 1-Click for Google Calendar Web -->
-  <a href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fraw.githubusercontent.com%2FGreenyNg%2Fresearch-opportunities%2Fmain%2Fresearch_calendar_master.ics" target="_blank">
+  <a href="https://calendar.google.com/calendar/render?cid=https%3A%2F%2Fraw.githubusercontent.com%2FGreenyNg%2Fresearch-opportunities%2Fmain%2Fresearch_calendar_master.ics" target="_blank">
     <img src="https://img.shields.io/badge/📅_Add_to_Google_Calendar-4285F4?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Add to Google Calendar" />
   </a>
 </p>
 
+
+
 <p align="center">
-  <sub>Or copy raw feed URL manually:</sub><br/>
+  <b>Calendar Feed URL (Copy for Apple Calendar / Outlook):</b><br/>
   <code>https://raw.githubusercontent.com/GreenyNg/research-opportunities/main/research_calendar_master.ics</code>
 </p>
 
----
 
-### Quick Setup Instructions
 
-| Platform | Instructions |
-| --- | --- |
-| **Google Calendar** | On the left sidebar, click **`+`** next to *Other calendars* → select **From URL** → paste the link → click **Add calendar**. |
-| **Apple Calendar (Mac)** | Click **File** → **New Calendar Subscription...** → paste the URL → choose refresh frequency (e.g., daily/weekly). |
-| **Apple Calendar (iOS)** | Open **Settings** → **Calendar** → **Accounts** → **Add Account** → **Other** → **Add Subscribed Calendar**. |
-| **Microsoft Outlook** | Go to Calendar view → click **Add Calendar** → select **Subscribe from web** → paste link. |
+### 📱 Quick Setup Instructions
+
+| Platform | How to Subscribe |
+| :--- | :--- |
+| **Google Calendar** | Click the **Add to Google Calendar** button above (or paste the feed URL into *Other calendars &rarr; From URL*). |
+| **Apple Calendar (Mac)** | Press `Option + Cmd + S` (or **File &rarr; New Calendar Subscription...**), paste the feed URL, and click **Subscribe**. |
+| **Apple Calendar (iOS)** | Go to **Settings &rarr; Calendar &rarr; Accounts &rarr; Add Account &rarr; Other &rarr; Add Subscribed Calendar**, paste the URL, and save. |
+| **Microsoft Outlook** | Go to Calendar view &rarr; **Add Calendar &rarr; Subscribe from web**, paste the URL, and save. |
 
 ---
 
