@@ -3,6 +3,7 @@ VERSION:2.0
 PRODID:-//AI and CS Research Master Roadmap Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Research Opportunities
 BEGIN:VEVENT
 UID:recur-base-fellowship@research
 DTSTAMP:20260101T000000Z
@@ -10,16 +11,20 @@ DTSTART:20260109T090000
 DTEND:20260109T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship
-DESCRIPTION:Focus: AI Safety, Ethics & Governance.\nRequirements: CV, 1 referee contact, essay prompts.\nPortal: https://airtable.com/app2G9C400ntVfMvm/pagWWSgzzn0NYBnNq/form
+DESCRIPTION:Focus: AI Safety\, Ethics & Governance.\nRequirements: CV\, 1 r
+ eferee contact\, essay prompts.\nPortal: https://airtable.com/app2G9C400nt
+ VfMvm/pagWWSgzzn0NYBnNq/form
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship in 14 days
+DESCRIPTION:Reminder: DEADLINE: Black in AI Safety & Ethics (BASE) Fellowsh
+ ip in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship in 3 days
+DESCRIPTION:Urgent: DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship
+  in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -29,7 +34,9 @@ DTSTART:20260114T090000
 DTEND:20260114T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: SPAR AI Risks Research Program
-DESCRIPTION:Focus: AI Safety & Alignment (Unpaid research program).\nRequirements: Application form, technical background statement.\nPortal: https://sparai.org/
+DESCRIPTION:Focus: AI Safety & Alignment (Unpaid research program).\nRequir
+ ements: Application form\, technical background statement.\nPortal: https:
+ //sparai.org/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -48,16 +55,20 @@ DTSTART:20260115T090000
 DTEND:20260115T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Research Associate (Pre-doc) - Danish Pruthi Lab
-DESCRIPTION:Focus: NLP, Interpretability, Model Evaluation.\nRequirements: CV, Academic Transcript, 1 referee contact, Motivation statement (250 words).\nPortal: https://danishpruthi.com/
+DESCRIPTION:Focus: NLP\, Interpretability\, Model Evaluation.\nRequirements
+ : CV\, Academic Transcript\, 1 referee contact\, Motivation statement (250
+  words).\nPortal: https://danishpruthi.com/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Research Associate (Pre-doc) - Danish Pruthi Lab in 14 days
+DESCRIPTION:Reminder: DEADLINE: Research Associate (Pre-doc) - Danish Pruth
+ i Lab in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Research Associate (Pre-doc) - Danish Pruthi Lab in 3 days
+DESCRIPTION:Urgent: DEADLINE: Research Associate (Pre-doc) - Danish Pruthi 
+ Lab in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -67,11 +78,14 @@ DTSTART:20260117T090000
 DTEND:20260117T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: PIBBSS Summer Research Fellowship
-DESCRIPTION:Focus: Complex Systems, Alignment, Biological & Artificial Intelligence.\nRequirements: CV/Resume, Personal Statement, Past work/code samples.\nPortal: https://princint.ai/programs/fellowship/
+DESCRIPTION:Focus: Complex Systems\, Alignment\, Biological & Artificial In
+ telligence.\nRequirements: CV/Resume\, Personal Statement\, Past work/code
+  samples.\nPortal: https://princint.ai/programs/fellowship/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: PIBBSS Summer Research Fellowship in 14 days
+DESCRIPTION:Reminder: DEADLINE: PIBBSS Summer Research Fellowship in 14 day
+ s
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
@@ -86,16 +100,20 @@ DTSTART:20260118T090000
 DTEND:20260118T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: MATS Summer Cohort (ML Alignment & Theory)
-DESCRIPTION:Focus: Technical AI Alignment, Mechanistic Interpretability, RL.\nRequirements: CV/Resume, 2 referee contacts, selection problems.\nPortal: https://www.matsprogram.org/apply
+DESCRIPTION:Focus: Technical AI Alignment\, Mechanistic Interpretability\, 
+ RL.\nRequirements: CV/Resume\, 2 referee contacts\, selection problems.\nP
+ ortal: https://www.matsprogram.org/apply
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: MATS Summer Cohort (ML Alignment & Theory) in 14 days
+DESCRIPTION:Reminder: DEADLINE: MATS Summer Cohort (ML Alignment & Theory) 
+ in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: MATS Summer Cohort (ML Alignment & Theory) in 3 days
+DESCRIPTION:Urgent: DEADLINE: MATS Summer Cohort (ML Alignment & Theory) in
+  3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -105,16 +123,21 @@ DTSTART:20260122T090000
 DTEND:20260122T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Vector Institute Research Internship (Spring Cycle)
-DESCRIPTION:Focus: Deep Learning, Recommendation Systems, AI Theory.\nRequirements: Academic Transcript, CV, Research Statement (optional for UG), 2 letters of recommendation.\nPortal: https://vectorinstitute.ai/programs/research-internships/
+DESCRIPTION:Focus: Deep Learning\, Recommendation Systems\, AI Theory.\nReq
+ uirements: Academic Transcript\, CV\, Research Statement (optional for UG)
+ \, 2 letters of recommendation.\nPortal: https://vectorinstitute.ai/progra
+ ms/research-internships/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Vector Institute Research Internship (Spring Cycle) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Vector Institute Research Internship (Sprin
+ g Cycle) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Vector Institute Research Internship (Spring Cycle) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Vector Institute Research Internship (Spring 
+ Cycle) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -124,16 +147,20 @@ DTSTART:20260123T090000
 DTEND:20260123T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Univ. of Rochester Summer Research (i-Scholar)
-DESCRIPTION:Focus: Chemistry & Computational Sciences.\nRequirements: CV, Academic Transcript, 2 referee contacts.\nPortal: https://www.sas.rochester.edu/chm/undergraduate/i-scholar.html
+DESCRIPTION:Focus: Chemistry & Computational Sciences.\nRequirements: CV\, 
+ Academic Transcript\, 2 referee contacts.\nPortal: https://www.sas.rochest
+ er.edu/chm/undergraduate/i-scholar.html
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Univ. of Rochester Summer Research (i-Scholar) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Univ. of Rochester Summer Research (i-Schol
+ ar) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Univ. of Rochester Summer Research (i-Scholar) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Univ. of Rochester Summer Research (i-Scholar
+ ) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -143,16 +170,21 @@ DTSTART:20260126T090000
 DTEND:20260126T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: CERN OpenLab & Summer Student Programme
-DESCRIPTION:Focus: Large-scale Computing, Data Management, High-performance ML.\nRequirements: Academic Transcript, CV, Motivation Letter, Reference Letters.\nPortal: https://openlab.cern/cern-openlab-summer-student-programme/
+DESCRIPTION:Focus: Large-scale Computing\, Data Management\, High-performan
+ ce ML.\nRequirements: Academic Transcript\, CV\, Motivation Letter\, Refer
+ ence Letters.\nPortal: https://openlab.cern/cern-openlab-summer-student-pr
+ ogramme/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: CERN OpenLab & Summer Student Programme in 14 days
+DESCRIPTION:Reminder: DEADLINE: CERN OpenLab & Summer Student Programme in 
+ 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: CERN OpenLab & Summer Student Programme in 3 days
+DESCRIPTION:Urgent: DEADLINE: CERN OpenLab & Summer Student Programme in 3 
+ days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -162,16 +194,21 @@ DTSTART:20260131T090000
 DTEND:20260131T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: AScI Summer Research Programme (Aalto University)
-DESCRIPTION:Focus: Computer Science, Machine Learning, Data Science.\nRequirements: Academic Transcript, CV, Motivation Letter, 1 Reference Letter.\nPortal: https://www.aalto.fi/en/aalto-science-institute-asci/aalto-science-institute-international-summer-research-programme
+DESCRIPTION:Focus: Computer Science\, Machine Learning\, Data Science.\nReq
+ uirements: Academic Transcript\, CV\, Motivation Letter\, 1 Reference Lett
+ er.\nPortal: https://www.aalto.fi/en/aalto-science-institute-asci/aalto-sc
+ ience-institute-international-summer-research-programme
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: AScI Summer Research Programme (Aalto University) in 14 days
+DESCRIPTION:Reminder: DEADLINE: AScI Summer Research Programme (Aalto Unive
+ rsity) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: AScI Summer Research Programme (Aalto University) in 3 days
+DESCRIPTION:Urgent: DEADLINE: AScI Summer Research Programme (Aalto Univers
+ ity) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -181,16 +218,20 @@ DTSTART:20260131T090000
 DTEND:20260131T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: DESY Summer Student Programme (Germany)
-DESCRIPTION:Focus: Scientific Computing, Data Pipelines, Acceleration & ML.\nEligibility: Late Bachelor / Senior Undergrads.\nBenefits: Daily allowance + free on-site hostel accommodation.\nPortal: https://www.desy.de/
+DESCRIPTION:Focus: Scientific Computing\, Data Pipelines\, Acceleration & M
+ L.\nEligibility: Late Bachelor / Senior Undergrads.\nBenefits: Daily allow
+ ance + free on-site hostel accommodation.\nPortal: https://www.desy.de/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: DESY Summer Student Programme (Germany) in 14 days
+DESCRIPTION:Reminder: DEADLINE: DESY Summer Student Programme (Germany) in 
+ 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: DESY Summer Student Programme (Germany) in 3 days
+DESCRIPTION:Urgent: DEADLINE: DESY Summer Student Programme (Germany) in 3 
+ days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -200,16 +241,21 @@ DTSTART:20260205T090000
 DTEND:20260205T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: ISTA ISTernship Summer Program (Austria)
-DESCRIPTION:Focus: CS, Data Science, Machine Learning, Mathematical Foundations.\nEligibility: Bachelor students completed >= 4 semesters.\nBenefits: Fully funded monthly stipend, accommodation, travel support.\nPortal: https://ista.ac.at/en/education/internships/
+DESCRIPTION:Focus: CS\, Data Science\, Machine Learning\, Mathematical Foun
+ dations.\nEligibility: Bachelor students completed >= 4 semesters.\nBenefi
+ ts: Fully funded monthly stipend\, accommodation\, travel support.\nPortal
+ : https://ista.ac.at/en/education/internships/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: ISTA ISTernship Summer Program (Austria) in 14 days
+DESCRIPTION:Reminder: DEADLINE: ISTA ISTernship Summer Program (Austria) in
+  14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: ISTA ISTernship Summer Program (Austria) in 3 days
+DESCRIPTION:Urgent: DEADLINE: ISTA ISTernship Summer Program (Austria) in 3
+  days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -219,16 +265,21 @@ DTSTART:20260212T090000
 DTEND:20260212T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore)
-DESCRIPTION:Focus: Applied Machine Learning, Data Analytics, Algorithms in Industry Projects.\nEligibility: Undergraduates worldwide.\nBenefits: Full travel, housing, and generous stipend.\nPortal: https://www.ipam.ucla.edu/programs/student-research-programs/
+DESCRIPTION:Focus: Applied Machine Learning\, Data Analytics\, Algorithms i
+ n Industry Projects.\nEligibility: Undergraduates worldwide.\nBenefits: Fu
+ ll travel\, housing\, and generous stipend.\nPortal: https://www.ipam.ucla
+ .edu/programs/student-research-programs/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore) in 14 days
+DESCRIPTION:Reminder: DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore
+ ) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore) in 3 days
+DESCRIPTION:Urgent: DEADLINE: IPAM RIPS Summer Research (UCLA / Singapore) 
+ in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -238,7 +289,10 @@ DTSTART:20260213T090000
 DTEND:20260213T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: EDGE Summer Program
-DESCRIPTION:Eligibility: Strictly for women with goals of attaining a PhD in mathematical sciences.\nRequirements: Application form, CV/Resume, Transcript, 2 referee contacts.\nPortal: https://www.edgeforwomen.org/summer-session/
+DESCRIPTION:Eligibility: Strictly for women with goals of attaining a PhD i
+ n mathematical sciences.\nRequirements: Application form\, CV/Resume\, Tra
+ nscript\, 2 referee contacts.\nPortal: https://www.edgeforwomen.org/summer
+ -session/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -257,16 +311,20 @@ DTSTART:20260220T090000
 DTEND:20260220T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: CMU LTI Language Technology for All Internship
-DESCRIPTION:Focus: NLP, Language Technologies, Representation Learning.\nRequirements: CV, Academic Transcript, Short Answer Prompts.\nPortal: https://lti.cmu.edu/news-and-events/news/2026-02-03-lt-for-all.html
+DESCRIPTION:Focus: NLP\, Language Technologies\, Representation Learning.\n
+ Requirements: CV\, Academic Transcript\, Short Answer Prompts.\nPortal: ht
+ tps://lti.cmu.edu/news-and-events/news/2026-02-03-lt-for-all.html
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: CMU LTI Language Technology for All Internship in 14 days
+DESCRIPTION:Reminder: DEADLINE: CMU LTI Language Technology for All Interns
+ hip in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: CMU LTI Language Technology for All Internship in 3 days
+DESCRIPTION:Urgent: DEADLINE: CMU LTI Language Technology for All Internshi
+ p in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -276,16 +334,21 @@ DTSTART:20260226T090000
 DTEND:20260226T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Google Research Africa Student Researcher
-DESCRIPTION:Focus: Machine Learning, African Language Tech, AI Systems.\nRequirements: Academic Transcript, CV/Resume, Motivation Letter (apply ~1 month early).\nPortal: https://www.google.com/about/careers/applications/jobs/results/93865849051325126-student-researcher/
+DESCRIPTION:Focus: Machine Learning\, African Language Tech\, AI Systems.\n
+ Requirements: Academic Transcript\, CV/Resume\, Motivation Letter (apply ~
+ 1 month early).\nPortal: https://www.google.com/about/careers/applications
+ /jobs/results/93865849051325126-student-researcher/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Google Research Africa Student Researcher in 14 days
+DESCRIPTION:Reminder: DEADLINE: Google Research Africa Student Researcher i
+ n 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Google Research Africa Student Researcher in 3 days
+DESCRIPTION:Urgent: DEADLINE: Google Research Africa Student Researcher in 
+ 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -295,11 +358,15 @@ DTSTART:20260228T090000
 DTEND:20260228T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: ICTP Postgraduate Diploma Programme
-DESCRIPTION:Focus: Theoretical Physics and Mathematics.\nRequirements: BSc or MSc, under age 28, Transcript, 2 recommendation letters, course certifications.\nPortal: https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme
+DESCRIPTION:Focus: Theoretical Physics and Mathematics.\nRequirements: BSc 
+ or MSc\, under age 28\, Transcript\, 2 recommendation letters\, course cer
+ tifications.\nPortal: https://www.ictp.it/opportunity/ictp-postgraduate-di
+ ploma-programme
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: ICTP Postgraduate Diploma Programme in 14 days
+DESCRIPTION:Reminder: DEADLINE: ICTP Postgraduate Diploma Programme in 14 d
+ ays
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
@@ -314,16 +381,21 @@ DTSTART:20260228T090000
 DTEND:20260228T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: MBZUAI UGRIP (Undergraduate Research Internship)
-DESCRIPTION:Focus: Machine Learning, NLP, Computer Vision.\nEligibility: Penultimate year STEM undergraduate, CGPA >= 3.5/4.0.\nRequirements: Academic Transcript, SOP, University Admission Letter, Passport.\nPortal: https://mbzuai.ac.ae/ugrip/
+DESCRIPTION:Focus: Machine Learning\, NLP\, Computer Vision.\nEligibility: 
+ Penultimate year STEM undergraduate\, CGPA >= 3.5/4.0.\nRequirements: Acad
+ emic Transcript\, SOP\, University Admission Letter\, Passport.\nPortal: h
+ ttps://mbzuai.ac.ae/ugrip/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: MBZUAI UGRIP (Undergraduate Research Internship) in 14 days
+DESCRIPTION:Reminder: DEADLINE: MBZUAI UGRIP (Undergraduate Research Intern
+ ship) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: MBZUAI UGRIP (Undergraduate Research Internship) in 3 days
+DESCRIPTION:Urgent: DEADLINE: MBZUAI UGRIP (Undergraduate Research Internsh
+ ip) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -333,16 +405,21 @@ DTSTART:20260301T090000
 DTEND:20260301T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Caltech SURF (Summer Undergraduate Research)
-DESCRIPTION:Focus: Fundamental Computing, Applied AI, Algorithms.\nRequirements: Contact Caltech faculty mentor in fall, research proposal, 2 recommendation letters.\nPortal: https://sfp.caltech.edu/undergraduate-research/programs/surf
+DESCRIPTION:Focus: Fundamental Computing\, Applied AI\, Algorithms.\nRequir
+ ements: Contact Caltech faculty mentor in fall\, research proposal\, 2 rec
+ ommendation letters.\nPortal: https://sfp.caltech.edu/undergraduate-resear
+ ch/programs/surf
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Caltech SURF (Summer Undergraduate Research) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Caltech SURF (Summer Undergraduate Research
+ ) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Caltech SURF (Summer Undergraduate Research) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Caltech SURF (Summer Undergraduate Research) 
+ in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -351,17 +428,24 @@ DTSTAMP:20260101T000000Z
 DTSTART:20260308T090000
 DTEND:20260308T100000
 RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Network)
-DESCRIPTION:Focus: Foundation Models, Machine Learning, Systems, Theory.\nEligibility: Undergraduates worldwide, Min GPA 3.5/4.0.\nBenefits: €1,500/month stipend, accommodation, and travel covered.\nRequirements: CV, Transcript, 1-page motivation letter.\nPortal: https://insait.ai/surf/
+SUMMARY:DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Networ
+ k)
+DESCRIPTION:Focus: Foundation Models\, Machine Learning\, Systems\, Theory.
+ \nEligibility: Undergraduates worldwide\, Min GPA 3.5/4.0.\nBenefits: €1
+ \,500/month stipend\, accommodation\, and travel covered.\nRequirements: C
+ V\, Transcript\, 1-page motivation letter.\nPortal: https://insait.ai/surf
+ /
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Network) in 14 days
+DESCRIPTION:Reminder: DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH
+  / EPFL Network) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH / EPFL Network) in 3 days
+DESCRIPTION:Urgent: DEADLINE: INSAIT SURF Summer Research (Bulgaria / ETH /
+  EPFL Network) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -371,16 +455,21 @@ DTSTART:20260309T090000
 DTEND:20260309T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: RENEU - UChicago (Nigerian Undergrads)
-DESCRIPTION:Focus: Materials Science, ChemE, Energy & ML.\nEligibility: 4th/5th year Nigerian Undergrads intending to pursue PhD; First Class or 2:1 track.\nRequirements: CV, Academic Transcript, Statement.\nPortal: https://amanchukwu.uchicago.edu/outreach/researchexperience/
+DESCRIPTION:Focus: Materials Science\, ChemE\, Energy & ML.\nEligibility: 4
+ th/5th year Nigerian Undergrads intending to pursue PhD\; First Class or 2
+ :1 track.\nRequirements: CV\, Academic Transcript\, Statement.\nPortal: ht
+ tps://amanchukwu.uchicago.edu/outreach/researchexperience/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: RENEU - UChicago (Nigerian Undergrads) in 14 days
+DESCRIPTION:Reminder: DEADLINE: RENEU - UChicago (Nigerian Undergrads) in 1
+ 4 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: RENEU - UChicago (Nigerian Undergrads) in 3 days
+DESCRIPTION:Urgent: DEADLINE: RENEU - UChicago (Nigerian Undergrads) in 3 d
+ ays
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -390,7 +479,8 @@ DTSTART:20260330T090000
 DTEND:20260330T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: LASR Labs Summer Internship
-DESCRIPTION:Focus: AI Safety, Security, Governance.\nRequirements: Essay responses, CV/Resume.\nPortal: https://www.lasrlabs.org/
+DESCRIPTION:Focus: AI Safety\, Security\, Governance.\nRequirements: Essay 
+ responses\, CV/Resume.\nPortal: https://www.lasrlabs.org/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -409,16 +499,20 @@ DTSTART:20260403T090000
 DTEND:20260403T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Mak-AI Undergraduate Internship Program
-DESCRIPTION:Focus: Applied Machine Learning, Edge AI, African Context Solutions.\nRequirements: CV, Academic Transcript, Statement.\nPortal: https://air.ug/?page_id=1819
+DESCRIPTION:Focus: Applied Machine Learning\, Edge AI\, African Context Sol
+ utions.\nRequirements: CV\, Academic Transcript\, Statement.\nPortal: http
+ s://air.ug/?page_id=1819
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Mak-AI Undergraduate Internship Program in 14 days
+DESCRIPTION:Reminder: DEADLINE: Mak-AI Undergraduate Internship Program in 
+ 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Mak-AI Undergraduate Internship Program in 3 days
+DESCRIPTION:Urgent: DEADLINE: Mak-AI Undergraduate Internship Program in 3 
+ days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -428,11 +522,14 @@ DTSTART:20260412T090000
 DTEND:20260412T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Cambridge ERA:AI Summer Fellowship
-DESCRIPTION:Focus: Existential Risk, Technical AI Alignment, Policy.\nRequirements: Essay questions, 2 referee contacts.\nPortal: https://erafellowship.org/
+DESCRIPTION:Focus: Existential Risk\, Technical AI Alignment\, Policy.\nReq
+ uirements: Essay questions\, 2 referee contacts.\nPortal: https://erafello
+ wship.org/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Cambridge ERA:AI Summer Fellowship in 14 days
+DESCRIPTION:Reminder: DEADLINE: Cambridge ERA:AI Summer Fellowship in 14 da
+ ys
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
@@ -447,7 +544,8 @@ DTSTART:20260415T090000
 DTEND:20260415T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: ELITE Research Lab Internship
-DESCRIPTION:Tracks: CS Research Intern, Economics & Business Research.\nRequirements: Short answer prompts, CV.\nPortal: https://lnkd.in/g97jvByR
+DESCRIPTION:Tracks: CS Research Intern\, Economics & Business Research.\nRe
+ quirements: Short answer prompts\, CV.\nPortal: https://lnkd.in/g97jvByR
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -466,16 +564,20 @@ DTSTART:20260516T090000
 DTEND:20260516T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fellowship
-DESCRIPTION:Post-graduation Target: 1-year public sector leadership.\nEligibility: Nigerian, 25-35 yrs, Bachelor/HND, NYSC complete + 2 yrs work exp.\nPortal: https://www.ljla.academy/application2026/
+DESCRIPTION:Post-graduation Target: 1-year public sector leadership.\nEligi
+ bility: Nigerian\, 25-35 yrs\, Bachelor/HND\, NYSC complete + 2 yrs work e
+ xp.\nPortal: https://www.ljla.academy/application2026/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fellowship in 14 days
+DESCRIPTION:Reminder: DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fe
+ llowship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fellowship in 3 days
+DESCRIPTION:Urgent: DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fell
+ owship in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -485,11 +587,14 @@ DTSTART:20260517T090000
 DTEND:20260517T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: RBC Borealis ML Research Internship
-DESCRIPTION:Focus: Applied Machine Learning, RecSys, NLP.\nEligibility: Graduate students (MSc/PhD).\nRequirements: Resume/CV, Research portfolio.\nPortal: https://rbcborealis.com/internships/
+DESCRIPTION:Focus: Applied Machine Learning\, RecSys\, NLP.\nEligibility: G
+ raduate students (MSc/PhD).\nRequirements: Resume/CV\, Research portfolio.
+ \nPortal: https://rbcborealis.com/internships/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: RBC Borealis ML Research Internship in 14 days
+DESCRIPTION:Reminder: DEADLINE: RBC Borealis ML Research Internship in 14 d
+ ays
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
@@ -504,16 +609,21 @@ DTSTART:20260519T090000
 DTEND:20260519T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Vector Institute Internship (Fall Intake)
-DESCRIPTION:Focus: Machine Learning, Recommenders, Deep Learning.\nRequirements: CV, Academic Transcript, Research statement (250-400 words), 2 referees.\nPortal: https://vectorinstitute.ai/research-talent/students/ai-research-internships/
+DESCRIPTION:Focus: Machine Learning\, Recommenders\, Deep Learning.\nRequir
+ ements: CV\, Academic Transcript\, Research statement (250-400 words)\, 2 
+ referees.\nPortal: https://vectorinstitute.ai/research-talent/students/ai-
+ research-internships/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Vector Institute Internship (Fall Intake) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Vector Institute Internship (Fall Intake) i
+ n 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Vector Institute Internship (Fall Intake) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Vector Institute Internship (Fall Intake) in 
+ 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -523,7 +633,8 @@ DTSTART:20260601T090000
 DTEND:20260601T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Illumina Health Lab Internship
-DESCRIPTION:Focus: Computational Biology & Machine Learning in Genomics.\nRequirements: Short answer prompts, CV.\nPortal: https://lnkd.in/e2fjwXMw
+DESCRIPTION:Focus: Computational Biology & Machine Learning in Genomics.\nR
+ equirements: Short answer prompts\, CV.\nPortal: https://lnkd.in/e2fjwXMw
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -542,16 +653,20 @@ DTSTART:20260601T090000
 DTEND:20260601T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Kempner AI Fellows Program (Harvard)
-DESCRIPTION:Focus: Natural and Artificial Intelligence.\nRequirements: CV, Academic Transcripts, Research statement, 1-2 references.\nPortal: https://kempnerinstitute.harvard.edu/
+DESCRIPTION:Focus: Natural and Artificial Intelligence.\nRequirements: CV\,
+  Academic Transcripts\, Research statement\, 1-2 references.\nPortal: http
+ s://kempnerinstitute.harvard.edu/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Kempner AI Fellows Program (Harvard) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Kempner AI Fellows Program (Harvard) in 14 
+ days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Kempner AI Fellows Program (Harvard) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Kempner AI Fellows Program (Harvard) in 3 day
+ s
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -561,16 +676,20 @@ DTSTART:20260622T090000
 DTEND:20260622T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Vector Institute Internship (Winter Intake)
-DESCRIPTION:Focus: Machine Learning.\nRequirements: CV, Academic Transcript, Research statement, 2 referees.\nPortal: https://vectorinstitute.ai/research-talent/students/ai-research-internships/
+DESCRIPTION:Focus: Machine Learning.\nRequirements: CV\, Academic Transcrip
+ t\, Research statement\, 2 referees.\nPortal: https://vectorinstitute.ai/r
+ esearch-talent/students/ai-research-internships/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Vector Institute Internship (Winter Intake) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Vector Institute Internship (Winter Intake)
+  in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Vector Institute Internship (Winter Intake) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Vector Institute Internship (Winter Intake) i
+ n 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -580,7 +699,10 @@ DTSTART:20260629T090000
 DTEND:20260629T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Michael Taiwo (MT) Scholarships
-DESCRIPTION:Postgrad funding: Covers GRE/GMAT, IELTS/TOEFL, and 6 grad school application fees.\nEligibility: Final-year undergrads or recent graduates with first-class/2:1 track.\nRequirements: Academic CV, transcripts, essays, personal statement.\nPortal: https://mtscholarships.org/
+DESCRIPTION:Postgrad funding: Covers GRE/GMAT\, IELTS/TOEFL\, and 6 grad sc
+ hool application fees.\nEligibility: Final-year undergrads or recent gradu
+ ates with first-class/2:1 track.\nRequirements: Academic CV\, transcripts\
+ , essays\, personal statement.\nPortal: https://mtscholarships.org/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -599,7 +721,9 @@ DTSTART:20260801T090000
 DTEND:20260801T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Big Theta Research Fellowship
-DESCRIPTION:Focus: Theoretical CS and Machine Learning Research Mentorship.\nRequirements: Academic CV, Statement of Research Interest.\nPortal: https://bigtheta.org/
+DESCRIPTION:Focus: Theoretical CS and Machine Learning Research Mentorship.
+ \nRequirements: Academic CV\, Statement of Research Interest.\nPortal: htt
+ ps://bigtheta.org/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -618,16 +742,21 @@ DTSTART:20260925T090000
 DTEND:20260925T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: CAAR Scholars Junior Research Fellow Programme
-DESCRIPTION:Focus: Applied research, mentorship, and foundational skills for emerging African researchers.\nRequirements: Academic CV, transcripts, statement of research interests.\nPortal: https://www.caarsscholars.org/
+DESCRIPTION:Focus: Applied research\, mentorship\, and foundational skills 
+ for emerging African researchers.\nRequirements: Academic CV\, transcripts
+ \, statement of research interests.\nPortal: https://www.caarsscholars.org
+ /
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: CAAR Scholars Junior Research Fellow Programme in 14 days
+DESCRIPTION:Reminder: DEADLINE: CAAR Scholars Junior Research Fellow Progra
+ mme in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: CAAR Scholars Junior Research Fellow Programme in 3 days
+DESCRIPTION:Urgent: DEADLINE: CAAR Scholars Junior Research Fellow Programm
+ e in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -637,16 +766,22 @@ DTSTART:20261004T090000
 DTEND:20261004T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Goldman Sachs Summer Analyst Programme (EMEA Engineering)
-DESCRIPTION:Focus: Software Engineering, Data & Algorithms.\nTarget: Penultimate year undergraduate students.\nPreparation: NeetCode 150 / LeetCode (Arrays, Hashmaps, Strings, LinkedList), HireVue behavioral, SuperDay.\nPortal: https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme
+DESCRIPTION:Focus: Software Engineering\, Data & Algorithms.\nTarget: Penul
+ timate year undergraduate students.\nPreparation: NeetCode 150 / LeetCode 
+ (Arrays\, Hashmaps\, Strings\, LinkedList)\, HireVue behavioral\, SuperDay
+ .\nPortal: https://www.goldmansachs.com/careers/students/programs-and-inte
+ rnships/emea/summer-analyst-programme
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Goldman Sachs Summer Analyst Programme (EMEA Engineering) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Goldman Sachs Summer Analyst Programme (EME
+ A Engineering) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Goldman Sachs Summer Analyst Programme (EMEA Engineering) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Goldman Sachs Summer Analyst Programme (EMEA 
+ Engineering) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -656,16 +791,20 @@ DTSTART:20261006T090000
 DTEND:20261006T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Knight-Hennessy Scholars (Stanford University)
-DESCRIPTION:Postgrad Target: Full funding for Stanford Master's/PhD.\nRequirements: Essays, video statement, separate graduate application to Stanford CS/Data science.\nPortal: https://knight-hennessy.stanford.edu/
+DESCRIPTION:Postgrad Target: Full funding for Stanford Master's/PhD.\nRequi
+ rements: Essays\, video statement\, separate graduate application to Stanf
+ ord CS/Data science.\nPortal: https://knight-hennessy.stanford.edu/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Knight-Hennessy Scholars (Stanford University) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Knight-Hennessy Scholars (Stanford Universi
+ ty) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Knight-Hennessy Scholars (Stanford University) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Knight-Hennessy Scholars (Stanford University
+ ) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -675,16 +814,22 @@ DTSTART:20261015T090000
 DTEND:20261015T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: OIST Research Internship Program (Japan)
-DESCRIPTION:Focus: Computational Sciences, AI, STEM.\nEligibility: Final 2 years of Bachelor's or Master's.\nBenefits: ¥2,400 daily allowance, furnished accommodation, round-trip flights.\nRequirements: Transcript, SOP, CV, 1+ recommendation letters.\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship
+DESCRIPTION:Focus: Computational Sciences\, AI\, STEM.\nEligibility: Final 
+ 2 years of Bachelor's or Master's.\nBenefits: ¥2\,400 daily allowance\, f
+ urnished accommodation\, round-trip flights.\nRequirements: Transcript\, S
+ OP\, CV\, 1+ recommendation letters.\nPortal: https://www.oist.jp/admissio
+ ns/research-internship/apply-research-internship
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: OIST Research Internship Program (Japan) in 14 days
+DESCRIPTION:Reminder: DEADLINE: OIST Research Internship Program (Japan) in
+  14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: OIST Research Internship Program (Japan) in 3 days
+DESCRIPTION:Urgent: DEADLINE: OIST Research Internship Program (Japan) in 3
+  days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -693,17 +838,21 @@ DTSTAMP:20260101T000000Z
 DTSTART:20261030T090000
 DTEND:20261030T100000
 RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: Digital, AI and Innovation Internship (Remote)
-DESCRIPTION:Focus: AI deployment & tooling.\nRequirements: CV, Cover letter, role-specific questionnaire.\nPortal: https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/33001
+SUMMARY:DEADLINE: Digital\, AI and Innovation Internship (Remote)
+DESCRIPTION:Focus: AI deployment & tooling.\nRequirements: CV\, Cover lette
+ r\, role-specific questionnaire.\nPortal: https://estm.fa.em2.oraclecloud.
+ com/hcmUI/CandidateExperience/en/sites/CX_1/job/33001
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Digital, AI and Innovation Internship (Remote) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Digital\, AI and Innovation Internship (Rem
+ ote) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Digital, AI and Innovation Internship (Remote) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Digital\, AI and Innovation Internship (Remot
+ e) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -712,17 +861,31 @@ DTSTAMP:20260101T000000Z
 DTSTART:20261101T090000
 DTEND:20261101T100000
 RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: Max Planck Institute Research Internship (CS/MPI)
-DESCRIPTION:Focus: Machine Learning, Computer Science, Intelligent Systems.\nRequirements: CV, Academic Transcript, Statement of Purpose, 2 referee contacts.\nPortal: https://www.cis.mpg.de/internships/
+SUMMARY:DEADLINE: Max Planck Institutes (CIS) Research Internship - Summer 
+ Start
+DESCRIPTION:Focus: All areas of Computer Science (MPI for Informatics\, MPI
+  for Software Systems\, MPI for Security and Privacy).\nDeadline: Nov 1 is
+  strict for internships starting May-Aug of the following year\; decisions
+  by Feb 1. Other start dates are rolling (apply at least 5 months ahead).\
+ nEligibility: Bachelors\, Masters and PhD students worldwide with roughly 
+ the first three years of a CS bachelors completed by the start\, and an ex
+ cellent academic record. Prior research experience is not required.\nBenef
+ its: Fully funded (stipend\, housing\, round-trip travel)\, typically 12-1
+ 4 weeks.\nRequirements: CV\, transcripts (unofficial accepted)\, contact f
+ or at least 1 referee\, optional motivation letter.\nNote: MPI for Intelli
+ gent Systems is not part of this program\; contact its faculty directly.\n
+ Portal: https://apply.cis.mpg.de/register/internship
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Max Planck Institute Research Internship (CS/MPI) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Max Planck Institutes (CIS) Research Intern
+ ship - Summer Start in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Max Planck Institute Research Internship (CS/MPI) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Max Planck Institutes (CIS) Research Internsh
+ ip - Summer Start in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -732,16 +895,21 @@ DTSTART:20261116T090000
 DTEND:20261116T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart)
-DESCRIPTION:Focus: AI, Machine Learning, Cognitive Systems & Data.\nEligibility: Undergrads (completed >= 4 semesters / 200–300 level).\nBenefits: €1,350/month, accommodation, health insurance, travel support.\nPortal: https://www.tuebingen.mpg.de/
+DESCRIPTION:Focus: AI\, Machine Learning\, Cognitive Systems & Data.\nEligi
+ bility: Undergrads (completed >= 4 semesters / 200–300 level).\nBenefits
+ : €1\,350/month\, accommodation\, health insurance\, travel support.\nPo
+ rtal: https://www.tuebingen.mpg.de/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Max Planck CaCTüS Internship (Tübingen & 
+ Stuttgart) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Max Planck CaCTüS Internship (Tübingen & St
+ uttgart) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -751,16 +919,20 @@ DTSTART:20261130T090000
 DTEND:20261130T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Summer @ EPFL Research Fellowship (Switzerland)
-DESCRIPTION:Focus: Computer Science, Information Systems, Machine Learning.\nRequirements: Academic Transcript, CV/Resume, Motivation Letter, References.\nPortal: https://summer.epfl.ch/apply.html
+DESCRIPTION:Focus: Computer Science\, Information Systems\, Machine Learnin
+ g.\nRequirements: Academic Transcript\, CV/Resume\, Motivation Letter\, Re
+ ferences.\nPortal: https://summer.epfl.ch/apply.html
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Summer @ EPFL Research Fellowship (Switzerland) in 14 days
+DESCRIPTION:Reminder: DEADLINE: Summer @ EPFL Research Fellowship (Switzerl
+ and) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Summer @ EPFL Research Fellowship (Switzerland) in 3 days
+DESCRIPTION:Urgent: DEADLINE: Summer @ EPFL Research Fellowship (Switzerlan
+ d) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -770,16 +942,20 @@ DTSTART:20261216T090000
 DTEND:20261216T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF)
-DESCRIPTION:Focus Areas: Data Management & Machine Learning, Intelligent Systems, Theory.\nRequirements: Academic Transcript, CV, Motivation Letter.\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html
+DESCRIPTION:Focus Areas: Data Management & Machine Learning\, Intelligent S
+ ystems\, Theory.\nRequirements: Academic Transcript\, CV\, Motivation Lett
+ er.\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF) in 14 days
+DESCRIPTION:Reminder: DEADLINE: ETH Zurich Student Summer Research Fellowsh
+ ip (SSRF) in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF) in 3 days
+DESCRIPTION:Urgent: DEADLINE: ETH Zurich Student Summer Research Fellowship
+  (SSRF) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -789,16 +965,20 @@ DTSTART:20261218T090000
 DTEND:20261218T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: UCL Gatsby Computational Neuroscience & ML Internship
-DESCRIPTION:Focus: Theoretical Machine Learning, Deep Math, Probabilistic Models.\nRequirements: Deep math foundation, CV, transcripts.\nPortal: https://www.ucl.ac.uk/life-sciences/gatsby/study-and-work/vacancies
+DESCRIPTION:Focus: Theoretical Machine Learning\, Deep Math\, Probabilistic
+  Models.\nRequirements: Deep math foundation\, CV\, transcripts.\nPortal: 
+ https://www.ucl.ac.uk/life-sciences/gatsby/study-and-work/vacancies
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: UCL Gatsby Computational Neuroscience & ML Internship in 14 days
+DESCRIPTION:Reminder: DEADLINE: UCL Gatsby Computational Neuroscience & ML 
+ Internship in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: UCL Gatsby Computational Neuroscience & ML Internship in 3 days
+DESCRIPTION:Urgent: DEADLINE: UCL Gatsby Computational Neuroscience & ML In
+ ternship in 3 days
 END:VALARM
 END:VEVENT
 END:VCALENDAR
