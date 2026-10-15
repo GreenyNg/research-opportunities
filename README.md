@@ -92,7 +92,7 @@ Eligibility varies widely. Some programs are limited to a particular year of stu
 ## 🛠️ Repository Architecture
 
 * `opportunities.json`: Structured source of truth for program dates, details, and application links.
-* `build_calendar.py`: Python script that reads `opportunities.json` and generates the `.ics` file.
+* `build_calendar.py`: Python script that validates `opportunities.json` and generates the `.ics` file. If validation fails, nothing is written. Run `python build_calendar.py --check` to validate without writing anything.
 * `research_calendar_master.ics`: The compiled production calendar file.
 * `.github/workflows/update_calendar.yml`: Automated CI workflow that rebuilds and pushes the calendar on commit.
 
@@ -112,7 +112,7 @@ Each opportunity in `opportunities.json` looks like this (placeholder values sho
 
 * `id`: a unique, lowercase, hyphenated identifier.
 * `month` / `day`: the deadline as numbers. The year is handled by the yearly recurrence.
-* `description`: use `\\n` (a double backslash followed by `n`) for line breaks. A single `\n` inside the JSON string will break the generated calendar file.
+* `description`: write line breaks as `\\n`, as in the example above (the standard JSON `\n` also works). Commas and semicolons are escaped for you.
 
 ---
 
@@ -123,7 +123,8 @@ Contributions and updates are very welcome! If you know of an opportunity or not
 1. Fork this repository.
 2. Edit or add the opportunity in `opportunities.json`, following the format above.
 3. Include a link to the **official** application page, and double-check the date against it.
-4. Submit a Pull Request. Once it is merged, the GitHub Action rebuilds the `.ics` file.
+4. Run `python build_calendar.py --check` to validate your changes locally. It reports every problem it finds, such as a bad date or a duplicate `id`.
+5. Submit a Pull Request. Once it is merged, the GitHub Action rebuilds the `.ics` file.
 
 ---
 
