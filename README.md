@@ -1,16 +1,16 @@
 # 🌍 AI & STEM Research Internship Deadlines & Master Tracker
 
-A curated, automatically updating iCalendar (`.ics`) feed and opportunity repository tracking key application deadlines, requirements, and direct application links for top global research internships, pre-docs, residencies, and fellowships across Artificial Intelligence, Machine Learning, and Computer Science.
+A curated iCalendar (`.ics`) feed and opportunity repository tracking key application deadlines, requirements, and application links for top global research internships, pre-docs, residencies, and fellowships across Artificial Intelligence, Machine Learning, and Computer Science.
 
 Designed for undergraduate and graduate researchers targeting disciplines such as Data Management, Machine Learning Systems, Computer Vision, NLP, and AI Alignment.
+
+> **⚠️ Always verify on the official page.** Dates, eligibility, and funding details are compiled from public sources and change from year to year. Treat each calendar entry as a reminder to check the program's own page, not as a guarantee. If you spot an error, please open an issue or a pull request.
 
 ---
 
 ## 📅 Subscribe via Calendar (Live Sync)
 
-Instead of manually importing static `.ics` files, subscribe using the raw calendar feed URL below. Any new deadline or correction pushed to this repository will automatically sync with your calendar application.
-
-
+Instead of manually importing static `.ics` files, subscribe using the raw calendar feed URL below. Any new deadline or correction pushed to this repository will appear in your calendar the next time your calendar app refreshes the feed (this can take several hours or longer, depending on the app).
 
 <p align="center">
   <!-- 1-Click for Google Calendar Web -->
@@ -19,14 +19,10 @@ Instead of manually importing static `.ics` files, subscribe using the raw calen
   </a>
 </p>
 
-
-
 <p align="center">
   <b>Calendar Feed URL (Copy for Apple Calendar / Outlook):</b><br/>
   <code>https://raw.githubusercontent.com/GreenyNg/research-opportunities/main/research_calendar_master.ics</code>
 </p>
-
-
 
 ### 📱 Quick Setup Instructions
 
@@ -41,14 +37,16 @@ Instead of manually importing static `.ics` files, subscribe using the raw calen
 
 ## ✨ Features
 
-* **Yearly Recurrence (`RRULE:FREQ=YEARLY`)**: All events recur annually so users can plan across continuous academic cycles.
+* **Yearly Recurrence (`RRULE:FREQ=YEARLY`)**: Events repeat each year as a prompt to re-check the program page. Some programs are one-off postings or change their dates, so always confirm the current cycle.
 * **Two-Stage Alarms**: Built-in alerts set for **14 days before** (preparation reminder) and **3 days before** (final submission check).
-* **Rich Event Metadata**: Every calendar entry contains eligibility prerequisites, required documents (CV, transcripts, recommendations), and direct application links.
+* **Event Details**: Most entries include the focus area, eligibility notes, required documents, and an application link. The level of detail varies by program.
 * **Floating Local Time**: Events are timed at 09:00 AM local time to prevent unwanted shifts across time zones.
 
 ---
 
 ## 🎯 Master Opportunities Directory
+
+Eligibility varies widely. Some programs are limited to a particular year of study, nationality, gender, or to graduate students, so check the requirements before you apply.
 
 ### Global Research Fellowships & Internships
 
@@ -93,10 +91,28 @@ Instead of manually importing static `.ics` files, subscribe using the raw calen
 
 ## 🛠️ Repository Architecture
 
-* `opportunities.json`: Structured source of truth for all program dates, eligibility rules, and portals.
-* `build_calendar.py`: Python generator script that validates schema and builds the RFC 5545-compliant `.ics` file.
+* `opportunities.json`: Structured source of truth for program dates, details, and application links.
+* `build_calendar.py`: Python script that reads `opportunities.json` and generates the `.ics` file.
 * `research_calendar_master.ics`: The compiled production calendar file.
-* `.github/workflows/update_calendar.yml`: Automated CI workflow that rebuilds and pushes changes on commit.
+* `.github/workflows/update_calendar.yml`: Automated CI workflow that rebuilds and pushes the calendar on commit.
+
+### Data Format
+
+Each opportunity in `opportunities.json` looks like this (placeholder values shown):
+
+```json
+{
+  "id": "example-program",
+  "summary": "DEADLINE: Example Research Internship",
+  "month": 1,
+  "day": 15,
+  "description": "Focus: Machine Learning.\\nEligibility: Undergraduates.\\nRequirements: CV, transcript.\\nPortal: https://example.org/apply"
+}
+```
+
+* `id`: a unique, lowercase, hyphenated identifier.
+* `month` / `day`: the deadline as numbers. The year is handled by the yearly recurrence.
+* `description`: use `\\n` (a double backslash followed by `n`) for line breaks. A single `\n` inside the JSON string will break the generated calendar file.
 
 ---
 
@@ -105,23 +121,20 @@ Instead of manually importing static `.ics` files, subscribe using the raw calen
 Contributions and updates are very welcome! If you know of an opportunity or notice a deadline shift:
 
 1. Fork this repository.
-2. Edit or add the opportunity details in `opportunities.json`.
-3. Submit a Pull Request. The GitHub Action will automatically re-build and validate the `.ics` file.
+2. Edit or add the opportunity in `opportunities.json`, following the format above.
+3. Include a link to the **official** application page, and double-check the date against it.
+4. Submit a Pull Request. Once it is merged, the GitHub Action rebuilds the `.ics` file.
 
 ---
 
 ## 🙏 Acknowledgments & Credits
 
-- Special thanks to the original compiler of the foundational [Research Internships 2026 Google Doc](https://docs.google.com/document/d/16odpvFaFm6ZKxdAPfZPCzk_D0bhnIQSk6-5rfCFBaNE/edit?tab=t.5zd9mj1gqbal), whose initial compilation inspired this automated calendar feed. 
+This project began from the [Research Internships 2026 Google Doc](https://docs.google.com/document/d/16odpvFaFm6ZKxdAPfZPCzk_D0bhnIQSk6-5rfCFBaNE/edit?tab=t.5zd9mj1gqbal), and its initial dataset is based on that document. Special thanks to its original compiler for laying the groundwork.
 
-We automated that foundational tracker into a structured `.ics` calendar and continuous pipeline so more researchers could access reminders directly in their workflow. Special thanks for laying the groundwork!
+We turned that static tracker into a structured `.ics` calendar and an automated pipeline so more researchers can get reminders directly in their own calendar.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
-
-```
-
-```
+This project is licensed under the [MIT License](LICENSE).
