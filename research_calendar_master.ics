@@ -545,7 +545,8 @@ DTEND:20260415T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: ELITE Research Lab Internship
 DESCRIPTION:Tracks: CS Research Intern\, Economics & Business Research.\nRe
- quirements: Short answer prompts\, CV.\nPortal: https://lnkd.in/g97jvByR
+ quirements: Short answer prompts\, CV.\nPortal: https://elitelab.ai/open-p
+ ositions
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -634,7 +635,8 @@ DTEND:20260601T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Illumina Health Lab Internship
 DESCRIPTION:Focus: Computational Biology & Machine Learning in Genomics.\nR
- equirements: Short answer prompts\, CV.\nPortal: https://lnkd.in/e2fjwXMw
+ equirements: Short answer prompts\, CV.\nPortal: https://docs.google.com/f
+ orms/d/e/1FAIpQLSd8mtu-kSeuwQQwVBXqbnAPQwyzJ4PcKjgQhP2x4ewdb8bKEA/viewform
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
