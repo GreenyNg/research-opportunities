@@ -235,7 +235,7 @@ def build_ics(items) -> str:
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="Validate opportunities.json and build the .ics feed.")
     parser.add_argument("--input", default="opportunities.json", help="path to the opportunities JSON file")
-    parser.add_argument("--output", default="research_calendar.ics", help="path of the .ics file to write")
+    parser.add_argument("--output", default="research_calendar_master.ics", help="path of the .ics file to write")
     parser.add_argument("--check", action="store_true", help="validate only; do not write the .ics file")
     args = parser.parse_args(argv)
 
