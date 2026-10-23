@@ -545,8 +545,7 @@ DTEND:20260415T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: ELITE Research Lab Internship
 DESCRIPTION:Tracks: CS Research Intern\, Economics & Business Research.\nRe
- quirements: Short answer prompts\, CV.\nPortal: https://elitelab.ai/open-p
- ositions
+ quirements: Short answer prompts\, CV.\nPortal: https://lnkd.in/g97jvByR
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -635,8 +634,7 @@ DTEND:20260601T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Illumina Health Lab Internship
 DESCRIPTION:Focus: Computational Biology & Machine Learning in Genomics.\nR
- equirements: Short answer prompts\, CV.\nPortal: https://docs.google.com/f
- orms/d/e/1FAIpQLSd8mtu-kSeuwQQwVBXqbnAPQwyzJ4PcKjgQhP2x4ewdb8bKEA/viewform
+ equirements: Short answer prompts\, CV.\nPortal: https://lnkd.in/e2fjwXMw
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -832,6 +830,37 @@ TRIGGER:-P3D
 ACTION:DISPLAY
 DESCRIPTION:Urgent: DEADLINE: OIST Research Internship Program (Japan) in 3
   days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recur-anthropic-stem-fellows@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261028T090000
+DTEND:20261028T100000
+SUMMARY:DEADLINE: Anthropic STEM Fellows Program (PhD holders\, US work aut
+ horization required)
+DESCRIPTION:Minimum stage: PhD holder or experienced researcher\nEligibilit
+ y: STEM PhD plus several years of experience (postdoc or faculty)\; existi
+ ng US work authorization required\; no visa sponsorship.\nFocus: AI for sc
+ ience. Fellows build datasets\, simulations and evaluations on open proble
+ ms in mathematics\, physics\, life sciences and engineering using Claude.\
+ nProgram: 4 months full-time\, Jan 12 to May 8\, 2027\; $100\,000-$167\,00
+ 0 for the fellowship\; offers by Nov 20\, 2026.\nRequirements: CV\, short 
+ written answers\, 2 references\; take-home exercise at later stages.\nNote
+ : One-off call for the 2027 cohort. The posting gives no deadline time\, s
+ o apply early.\nPortal: https://job-boards.greenhouse.io/anthropic/jobs/54
+ 52403008
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: Anthropic STEM Fellows Program (PhD holders
+ \, US work authorization required) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: Anthropic STEM Fellows Program (PhD holders\,
+  US work authorization required) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
