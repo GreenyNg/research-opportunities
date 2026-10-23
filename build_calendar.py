@@ -6,6 +6,12 @@ Usage:
     python build_calendar.py --check         # validate only, write nothing
     python build_calendar.py --input FILE --output FILE
 
+Fields in each opportunity:
+    id, summary, month, day, description     required
+    recurring   optional, true or false (default true). One-off postings use false.
+    year        required when recurring is false, not allowed otherwise.
+    min_stage   optional: any, undergraduate, advanced-undergraduate, graduate, phd.
+
 Validation errors stop the build (exit code 1) and no calendar is written,
 so a bad edit can never produce a broken feed. Warnings are printed but do
 not stop the build.
@@ -19,8 +25,9 @@ import re
 import sys
 from urllib.parse import urlparse
 
-# Events recur yearly, so this must be a NON-leap year. That is also what
-# makes Feb 29 fail validation (clients often skip Feb 29 in other years).
+# Recurring events repeat yearly, so this must be a NON-leap year. That is
+# also what makes Feb 29 fail validation for recurring entries (clients often
+# skip Feb 29 in other years).
 BASE_YEAR = 2026
 
 # Kept constant on purpose: a timestamp that changes on every run would make
@@ -31,7 +38,17 @@ CALENDAR_NAME = "Research Opportunities"
 
 # To add a field later (e.g. "source_url"), add it here and handle it below.
 REQUIRED_FIELDS = {"id", "summary", "month", "day", "description"}
-OPTIONAL_FIELDS = set()
+OPTIONAL_FIELDS = {"year", "recurring", "min_stage"}
+
+# Minimum stage a program expects, from least to most advanced. Shown at the
+# top of the event description when it is set to anything other than "any".
+STAGE_LABELS = {
+    "any": "No stage requirement",
+    "undergraduate": "Undergraduate",
+    "advanced-undergraduate": "Advanced undergraduate (about 3rd year or later)",
+    "graduate": "Graduate (Bachelor's completed, or Master's/PhD student)",
+    "phd": "PhD holder or experienced researcher",
+}
 
 ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 URL_PATTERN = re.compile(r"https?://\S+")
@@ -58,6 +75,7 @@ def validate(items) -> tuple[list[str], list[str]]:
         return ["The file contains no opportunities."], warnings
 
     seen_ids: dict[str, int] = {}
+    today = datetime.date.today()
 
     for index, item in enumerate(items, start=1):
         label = f"entry #{index}"
@@ -101,6 +119,26 @@ def validate(items) -> tuple[list[str], list[str]]:
             elif "\n" in summary or "\r" in summary or "\\n" in summary:
                 errors.append(f"{label}: 'summary' must be a single line (no line breaks).")
 
+        # recurring / year: one-off entries need an explicit year.
+        recurring = item.get("recurring", True)
+        recurring_ok = isinstance(recurring, bool)
+        if "recurring" in item and not recurring_ok:
+            errors.append(f"{label}: 'recurring' must be true or false (got {recurring!r}).")
+
+        check_year = BASE_YEAR
+        if recurring_ok:
+            if recurring and "year" in item:
+                errors.append(f"{label}: 'year' can only be used together with \"recurring\": false.")
+            elif not recurring:
+                if "year" not in item:
+                    errors.append(f"{label}: 'year' is required when \"recurring\" is false.")
+                elif not _is_int(item["year"]) or not 2000 <= item["year"] <= 2100:
+                    errors.append(
+                        f"{label}: 'year' must be a whole number between 2000 and 2100 (got {item['year']!r})."
+                    )
+                else:
+                    check_year = item["year"]
+
         # month / day: whole numbers forming a real calendar date.
         month, day = item.get("month"), item.get("day")
         for field in ("month", "day"):
@@ -111,14 +149,28 @@ def validate(items) -> tuple[list[str], list[str]]:
                 errors.append(f"{label}: 'month' must be between 1 and 12 (got {month}).")
             else:
                 try:
-                    datetime.date(BASE_YEAR, month, day)
+                    when = datetime.date(check_year, month, day)
                 except ValueError:
                     hint = (
-                        " Feb 29 is not supported because events recur every year."
-                        if (month, day) == (2, 29)
+                        " Feb 29 is not supported for recurring entries because they repeat every year."
+                        if (month, day) == (2, 29) and recurring_ok and recurring
                         else ""
                     )
                     errors.append(f"{label}: {month}/{day} is not a valid calendar date.{hint}")
+                else:
+                    if recurring_ok and not recurring and when < today:
+                        warnings.append(
+                            f"{label}: this one-off date has already passed ({when.isoformat()}); "
+                            "consider removing it."
+                        )
+
+        # min_stage: must be one of the known stages.
+        if "min_stage" in item:
+            stage = item["min_stage"]
+            if not isinstance(stage, str) or stage not in STAGE_LABELS:
+                errors.append(
+                    f"{label}: 'min_stage' must be one of: {', '.join(STAGE_LABELS)} (got {stage!r})."
+                )
 
         # description: required text; links are checked as warnings.
         if "description" in item:
@@ -181,6 +233,15 @@ def fold_line(line: str) -> list[str]:
     return [chunks[0]] + [" " + chunk for chunk in chunks[1:]]
 
 
+def event_description(item) -> str:
+    """The description text, with the minimum stage on top when one is set."""
+    description = item["description"].strip()
+    stage = item.get("min_stage", "any")
+    if stage != "any":
+        description = f"Minimum stage: {STAGE_LABELS[stage]}\n{description}"
+    return escape_text(description)
+
+
 def build_ics(items) -> str:
     lines = [
         "BEGIN:VCALENDAR",
@@ -192,11 +253,13 @@ def build_ics(items) -> str:
         f"X-WR-CALNAME:{escape_text(CALENDAR_NAME)}",
     ]
 
-    for item in sorted(items, key=lambda i: (i["month"], i["day"], i["id"])):
+    ordered = sorted(items, key=lambda i: (i.get("year", BASE_YEAR), i["month"], i["day"], i["id"]))
+    for item in ordered:
+        recurring = item.get("recurring", True)
+        year = BASE_YEAR if recurring else item["year"]
         summary = escape_text(item["summary"])
-        description = escape_text(item["description"])
-        start = f"{BASE_YEAR}{item['month']:02d}{item['day']:02d}T090000"
-        end = f"{BASE_YEAR}{item['month']:02d}{item['day']:02d}T100000"
+        start = f"{year}{item['month']:02d}{item['day']:02d}T090000"
+        end = f"{year}{item['month']:02d}{item['day']:02d}T100000"
 
         lines += [
             "BEGIN:VEVENT",
@@ -204,9 +267,12 @@ def build_ics(items) -> str:
             f"DTSTAMP:{DTSTAMP}",
             f"DTSTART:{start}",
             f"DTEND:{end}",
-            "RRULE:FREQ=YEARLY",
+        ]
+        if recurring:
+            lines.append("RRULE:FREQ=YEARLY")
+        lines += [
             f"SUMMARY:{summary}",
-            f"DESCRIPTION:{description}",
+            f"DESCRIPTION:{event_description(item)}",
             "BEGIN:VALARM",
             "TRIGGER:-P14D",
             "ACTION:DISPLAY",
@@ -235,7 +301,9 @@ def build_ics(items) -> str:
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="Validate opportunities.json and build the .ics feed.")
     parser.add_argument("--input", default="opportunities.json", help="path to the opportunities JSON file")
-    parser.add_argument("--output", default="research_calendar_master.ics", help="path of the .ics file to write")
+    parser.add_argument(
+        "--output", default="research_calendar_master.ics", help="path of the .ics file to write"
+    )
     parser.add_argument("--check", action="store_true", help="validate only; do not write the .ics file")
     args = parser.parse_args(argv)
 

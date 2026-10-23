@@ -37,7 +37,7 @@ Instead of manually importing static `.ics` files, subscribe using the raw calen
 
 ## ✨ Features
 
-* **Yearly Recurrence (`RRULE:FREQ=YEARLY`)**: Events repeat each year as a prompt to re-check the program page. Some programs are one-off postings or change their dates, so always confirm the current cycle.
+* **Yearly Recurrence (`RRULE:FREQ=YEARLY`)**: Events repeat each year by default, as a prompt to re-check the program page. One-off postings are marked as non-recurring, but dates still change from year to year, so always confirm the current cycle.
 * **Two-Stage Alarms**: Built-in alerts set for **14 days before** (preparation reminder) and **3 days before** (final submission check).
 * **Event Details**: Most entries include the focus area, eligibility notes, required documents, and an application link. The level of detail varies by program.
 * **Floating Local Time**: Events are timed at 09:00 AM local time to prevent unwanted shifts across time zones.
@@ -83,6 +83,7 @@ Eligibility varies widely. Some programs are limited to a particular year of stu
 ### Graduate Funding & Long-Term Residencies
 
 * **OpenAI Residency Program** (6-month research transition)
+* **Anthropic STEM Fellows Program** (PhD holders with US work authorization; one-off 2027 cohort call)
 * **Michael Taiwo (MT) Scholarships** (GRE/IELTS & Grad application fees funding)
 * **Knight-Hennessy Scholars (Stanford University)**
 * **Lateef Jakande Leadership Academy (LJLA)**
@@ -113,6 +114,9 @@ Each opportunity in `opportunities.json` looks like this (placeholder values sho
 * `id`: a unique, lowercase, hyphenated identifier.
 * `month` / `day`: the deadline as numbers. The year is handled by the yearly recurrence.
 * `description`: write line breaks as `\\n`, as in the example above (the standard JSON `\n` also works). Commas and semicolons are escaped for you.
+* `recurring` (optional, default `true`): set it to `false` for one-off postings, which then appear once instead of every year.
+* `year` (only with `"recurring": false`): the year of the deadline. It is required for one-off entries and not allowed for recurring ones.
+* `min_stage` (optional): the minimum stage the program expects, one of `any`, `undergraduate`, `advanced-undergraduate`, `graduate` or `phd`. It is shown at the top of the event description.
 
 ---
 

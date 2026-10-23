@@ -165,7 +165,7 @@
     "summary": "DEADLINE: ELITE Research Lab Internship",
     "month": 4,
     "day": 15,
-    "description": "Tracks: CS Research Intern, Economics & Business Research.\\nRequirements: Short answer prompts, CV.\\nPortal: https://elitelab.ai/open-positions"
+    "description": "Tracks: CS Research Intern, Economics & Business Research.\\nRequirements: Short answer prompts, CV.\\nPortal: https://lnkd.in/g97jvByR"
   },
   {
     "id": "ljla-lagos",
@@ -193,7 +193,7 @@
     "summary": "DEADLINE: Illumina Health Lab Internship",
     "month": 6,
     "day": 1,
-    "description": "Focus: Computational Biology & Machine Learning in Genomics.\\nRequirements: Short answer prompts, CV.\\nPortal: https://docs.google.com/forms/d/e/1FAIpQLSd8mtu-kSeuwQQwVBXqbnAPQwyzJ4PcKjgQhP2x4ewdb8bKEA/viewform"
+    "description": "Focus: Computational Biology & Machine Learning in Genomics.\\nRequirements: Short answer prompts, CV.\\nPortal: https://lnkd.in/e2fjwXMw"
   },
   {
     "id": "kempner-ai",
@@ -250,6 +250,16 @@
     "month": 10,
     "day": 15,
     "description": "Focus: Computational Sciences, AI, STEM.\\nEligibility: Final 2 years of Bachelor's or Master's.\\nBenefits: ¥2,400 daily allowance, furnished accommodation, round-trip flights.\\nRequirements: Transcript, SOP, CV, 1+ recommendation letters.\\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship"
+  },
+  {
+    "id": "anthropic-stem-fellows",
+    "summary": "DEADLINE: Anthropic STEM Fellows Program (PhD holders, US work authorization required)",
+    "month": 10,
+    "day": 28,
+    "year": 2026,
+    "recurring": false,
+    "min_stage": "phd",
+    "description": "Eligibility: STEM PhD plus several years of experience (postdoc or faculty); existing US work authorization required; no visa sponsorship.\\nFocus: AI for science. Fellows build datasets, simulations and evaluations on open problems in mathematics, physics, life sciences and engineering using Claude.\\nProgram: 4 months full-time, Jan 12 to May 8, 2027; $100,000-$167,000 for the fellowship; offers by Nov 20, 2026.\\nRequirements: CV, short written answers, 2 references; take-home exercise at later stages.\\nNote: One-off call for the 2027 cohort. The posting gives no deadline time, so apply early.\\nPortal: https://job-boards.greenhouse.io/anthropic/jobs/5452403008"
   },
   {
     "id": "digital-ai",
