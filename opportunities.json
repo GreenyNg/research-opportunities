@@ -1,5 +1,13 @@
 [
   {
+    "id": "weidenfeld-hoffmann",
+    "summary": "DEADLINE: Weidenfeld-Hoffmann Scholarships & Leadership Programme (Oxford master's, 2027-28)",
+    "month": 1,
+    "day": 6,
+    "min_stage": "graduate",
+    "description": "Eligibility: Graduates and early-career professionals from mainly low- and middle-income countries; must be admitted to an eligible 1-year Oxford master's course (no DPhil) and intend to return to their home country or region. Most scholars have 5+ years of work experience, but it is not required. Check Oxford's lists of eligible countries and courses.\\nBenefits: 100% of course fees, a living stipend (£21,805 in 2026-27) and a place on the Leadership Programme (about 200 hours, mid-September to early July).\\nDeadline: Set by the Oxford course: the January deadline or earlier (some courses close in December). The date shown is a typical January date, so check your course page.\\nRequirements: Select the scholarship on the Oxford graduate application form and submit the WHT application at the same time; English language test required.\\nPortal: https://whtrust.org/scholarship-application/"
+  },
+  {
     "id": "base-fellowship",
     "summary": "DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship",
     "month": 1,
