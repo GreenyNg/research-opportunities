@@ -86,6 +86,7 @@ Eligibility varies widely. Some programs are limited to a particular year of stu
 * **Anthropic STEM Fellows Program** (PhD holders with US work authorization; one-off 2027 cohort call)
 * **Michael Taiwo (MT) Scholarships** (GRE/IELTS & Grad application fees funding)
 * **Knight-Hennessy Scholars (Stanford University)**
+* **Weidenfeld-Hoffmann Scholarships & Leadership Programme** (fully funded Oxford master's for students from mainly low- and middle-income countries)
 * **Lateef Jakande Leadership Academy (LJLA)**
 
 ---
