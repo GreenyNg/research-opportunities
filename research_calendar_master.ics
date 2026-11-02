@@ -5,6 +5,41 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Research Opportunities
 BEGIN:VEVENT
+UID:recur-weidenfeld-hoffmann@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260106T090000
+DTEND:20260106T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: Weidenfeld-Hoffmann Scholarships & Leadership Programme (
+ Oxford master's\, 2027-28)
+DESCRIPTION:Minimum stage: Graduate (Bachelor's completed\, or Master's/PhD
+  student)\nEligibility: Graduates and early-career professionals from main
+ ly low- and middle-income countries\; must be admitted to an eligible 1-ye
+ ar Oxford master's course (no DPhil) and intend to return to their home co
+ untry or region. Most scholars have 5+ years of work experience\, but it i
+ s not required. Check Oxford's lists of eligible countries and courses.\nB
+ enefits: 100% of course fees\, a living stipend (£21\,805 in 2026-27) and
+  a place on the Leadership Programme (about 200 hours\, mid-September to e
+ arly July).\nDeadline: Set by the Oxford course: the January deadline or e
+ arlier (some courses close in December). The date shown is a typical Janua
+ ry date\, so check your course page.\nRequirements: Select the scholarship
+  on the Oxford graduate application form and submit the WHT application at
+  the same time\; English language test required.\nPortal: https://whtrust.
+ org/scholarship-application/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: Weidenfeld-Hoffmann Scholarships & Leadersh
+ ip Programme (Oxford master's\, 2027-28) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: Weidenfeld-Hoffmann Scholarships & Leadership
+  Programme (Oxford master's\, 2027-28) in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:recur-base-fellowship@research
 DTSTAMP:20260101T000000Z
 DTSTART:20260109T090000
