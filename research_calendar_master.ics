@@ -363,6 +363,41 @@ DESCRIPTION:Urgent: DEADLINE: CMU LTI Language Technology for All Internshi
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:recur-caltech-surf@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260222T090000
+DTEND:20260222T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: Caltech SURF (Summer Undergraduate Research)
+DESCRIPTION:Minimum stage: Undergraduate\nFocus: Research in any field offe
+ red at Caltech\, including computing\, AI and algorithms (placement depend
+ s on your mentor).\nEligibility: Continuing undergraduates\, international
+  students included. Caltech students need a GPA of 2.0+\; visiting student
+ s need a cumulative GPA of 2.5/4.0+ and must be eligible for fall registra
+ tion. JPL placements are limited to US citizens and permanent residents.\n
+ Benefits: 10-week fellowship starting mid-June with a flat stipend\, about
+  $8\,110 in 2026. The 2027 amount and exactly what it covers are not confi
+ rmed here\, so check the official page.\nRequirements: A Caltech faculty m
+ entor's agreement to supervise you\, research proposal\, unofficial transc
+ ript\, 2 recommendation letters (at least one from a faculty member)\, onl
+ ine application.\nDeadline: Applications open Nov 1\, 2026\; application a
+ nd letters due Feb 22\, 2027\; awards announced Apr 1\, 2027.\nPortal: htt
+ ps://sfp.caltech.edu/undergraduate-research/programs/surf/application_info
+ rmation
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: Caltech SURF (Summer Undergraduate Research
+ ) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: Caltech SURF (Summer Undergraduate Research) 
+ in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:recur-google-africa@research
 DTSTAMP:20260101T000000Z
 DTSTART:20260226T090000
@@ -431,30 +466,6 @@ TRIGGER:-P3D
 ACTION:DISPLAY
 DESCRIPTION:Urgent: DEADLINE: MBZUAI UGRIP (Undergraduate Research Internsh
  ip) in 3 days
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:recur-caltech-surf@research
-DTSTAMP:20260101T000000Z
-DTSTART:20260301T090000
-DTEND:20260301T100000
-RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: Caltech SURF (Summer Undergraduate Research)
-DESCRIPTION:Focus: Fundamental Computing\, Applied AI\, Algorithms.\nRequir
- ements: Contact Caltech faculty mentor in fall\, research proposal\, 2 rec
- ommendation letters.\nPortal: https://sfp.caltech.edu/undergraduate-resear
- ch/programs/surf
-BEGIN:VALARM
-TRIGGER:-P14D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Caltech SURF (Summer Undergraduate Research
- ) in 14 days
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-P3D
-ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Caltech SURF (Summer Undergraduate Research) 
- in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -868,60 +879,6 @@ DESCRIPTION:Urgent: DEADLINE: OIST Research Internship Program (Japan) in 3
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:recur-anthropic-stem-fellows@research
-DTSTAMP:20260101T000000Z
-DTSTART:20261028T090000
-DTEND:20261028T100000
-SUMMARY:DEADLINE: Anthropic STEM Fellows Program (PhD holders\, US work aut
- horization required)
-DESCRIPTION:Minimum stage: PhD holder or experienced researcher\nEligibilit
- y: STEM PhD plus several years of experience (postdoc or faculty)\; existi
- ng US work authorization required\; no visa sponsorship.\nFocus: AI for sc
- ience. Fellows build datasets\, simulations and evaluations on open proble
- ms in mathematics\, physics\, life sciences and engineering using Claude.\
- nProgram: 4 months full-time\, Jan 12 to May 8\, 2027\; $100\,000-$167\,00
- 0 for the fellowship\; offers by Nov 20\, 2026.\nRequirements: CV\, short 
- written answers\, 2 references\; take-home exercise at later stages.\nNote
- : One-off call for the 2027 cohort. The posting gives no deadline time\, s
- o apply early.\nPortal: https://job-boards.greenhouse.io/anthropic/jobs/54
- 52403008
-BEGIN:VALARM
-TRIGGER:-P14D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Anthropic STEM Fellows Program (PhD holders
- \, US work authorization required) in 14 days
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-P3D
-ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Anthropic STEM Fellows Program (PhD holders\,
-  US work authorization required) in 3 days
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:recur-digital-ai@research
-DTSTAMP:20260101T000000Z
-DTSTART:20261030T090000
-DTEND:20261030T100000
-RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: Digital\, AI and Innovation Internship (Remote)
-DESCRIPTION:Focus: AI deployment & tooling.\nRequirements: CV\, Cover lette
- r\, role-specific questionnaire.\nPortal: https://estm.fa.em2.oraclecloud.
- com/hcmUI/CandidateExperience/en/sites/CX_1/job/33001
-BEGIN:VALARM
-TRIGGER:-P14D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: Digital\, AI and Innovation Internship (Rem
- ote) in 14 days
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-P3D
-ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: Digital\, AI and Innovation Internship (Remot
- e) in 3 days
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:recur-max-planck-nov@research
 DTSTAMP:20260101T000000Z
 DTSTART:20261101T090000
@@ -952,6 +909,70 @@ TRIGGER:-P3D
 ACTION:DISPLAY
 DESCRIPTION:Urgent: DEADLINE: Max Planck Institutes (CIS) Research Internsh
  ip - Summer Start in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recur-epfl-ai-postdoc@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261109T090000
+DTEND:20261109T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: EPFL AI Center & Swiss AI Initiative Postdoctoral Fellows
+ hip (PhD level)
+DESCRIPTION:Minimum stage: PhD holder or experienced researcher\nEligibilit
+ y: PhD holders and final-stage PhD students (a PhD completed within about 
+ 2 years of the deadline\, per secondary sources).\nBenefits: Postdoctoral 
+ salary support for up to two years. Sources differ on the exact share of s
+ alary covered\, so check the call.\nProgram: An interdisciplinary AI resea
+ rch agenda carried out with at least two EPFL labs headed by EPFL AI Cente
+ r faculty.\nDeadline: Nov 9\, 2026 at 17:00 CET. Calls run yearly and exac
+ t dates shift\, so check the official call.\nPortal: https://www.epfl.ch/r
+ esearch/funding/epfl-programmes/ai-center/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: EPFL AI Center & Swiss AI Initiative Postdo
+ ctoral Fellowship (PhD level) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: EPFL AI Center & Swiss AI Initiative Postdoct
+ oral Fellowship (PhD level) in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recur-gates-ai-fellow-africa@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261111T090000
+DTEND:20261111T100000
+SUMMARY:DEADLINE: Gates Foundation AI Fellow - Africa Regional Offices (12-
+ month fellowship)
+DESCRIPTION:Minimum stage: Graduate (Bachelor's completed\, or Master's/PhD
+  student)\nEligibility: Early-to-mid-career professionals\, per the progra
+ m's 2026 page. This is a 12-month limited-term employment position\, not a
+  student program. Check the posting for the minimum degree and years of ex
+ perience.\nLocation: Abuja (Nigeria)\, Addis Ababa (Ethiopia)\, Johannesbu
+ rg (South Africa) or Nairobi (Kenya).\nFocus: Apply AI to the Foundation's
+  health\, development and education priorities in low- and middle-income c
+ ountries\; each fellow is assigned 1-2 high-priority projects with the Afr
+ ica team and partners.\nDeadline: Apply by Nov 11\, 2026 (the Workday list
+ ing closes Nov 12 EST).\nNote: One-off call for the first Africa-based coh
+ ort. Pay for this cohort is not confirmed\; the earlier global program lis
+ ted about $148\,920-$162\,350 depending on location.\nPortal: https://gate
+ sfoundation.wd1.myworkdayjobs.com/en-US/Gates/job/AI-Fellow---Africa-Regio
+ nal-Offices_B021830-1
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: Gates Foundation AI Fellow - Africa Regiona
+ l Offices (12-month fellowship) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: Gates Foundation AI Fellow - Africa Regional 
+ Offices (12-month fellowship) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
