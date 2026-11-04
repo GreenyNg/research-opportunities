@@ -83,10 +83,12 @@ Eligibility varies widely. Some programs are limited to a particular year of stu
 ### Graduate Funding & Long-Term Residencies
 
 * **OpenAI Residency Program** (6-month research transition)
-* **Anthropic STEM Fellows Program** (PhD holders with US work authorization; one-off 2027 cohort call)
+* **EPFL AI Center & Swiss AI Initiative Postdoctoral Fellowship** (PhD level)
 * **Michael Taiwo (MT) Scholarships** (GRE/IELTS & Grad application fees funding)
 * **Knight-Hennessy Scholars (Stanford University)**
+* **Weidenfeld-Hoffmann Scholarships & Leadership Programme** (fully funded Oxford master's for students from mainly low- and middle-income countries)
 * **Lateef Jakande Leadership Academy (LJLA)**
+* **Gates Foundation AI Fellow, Africa Regional Offices** (12-month early-career fellowship; one-off 2027 cohort call)
 
 ---
 

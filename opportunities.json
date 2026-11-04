@@ -1,5 +1,13 @@
 [
   {
+    "id": "weidenfeld-hoffmann",
+    "summary": "DEADLINE: Weidenfeld-Hoffmann Scholarships & Leadership Programme (Oxford master's, 2027-28)",
+    "month": 1,
+    "day": 6,
+    "min_stage": "graduate",
+    "description": "Eligibility: Graduates and early-career professionals from mainly low- and middle-income countries; must be admitted to an eligible 1-year Oxford master's course (no DPhil) and intend to return to their home country or region. Most scholars have 5+ years of work experience, but it is not required. Check Oxford's lists of eligible countries and courses.\\nBenefits: 100% of course fees, a living stipend (£21,805 in 2026-27) and a place on the Leadership Programme (about 200 hours, mid-September to early July).\\nDeadline: Set by the Oxford course: the January deadline or earlier (some courses close in December). The date shown is a typical January date, so check your course page.\\nRequirements: Select the scholarship on the Oxford graduate application form and submit the WHT application at the same time; English language test required.\\nPortal: https://whtrust.org/scholarship-application/"
+  },
+  {
     "id": "base-fellowship",
     "summary": "DEADLINE: Black in AI Safety & Ethics (BASE) Fellowship",
     "month": 1,
@@ -98,6 +106,14 @@
     "description": "Focus: NLP, Language Technologies, Representation Learning.\\nRequirements: CV, Academic Transcript, Short Answer Prompts.\\nPortal: https://lti.cmu.edu/news-and-events/news/2026-02-03-lt-for-all.html"
   },
   {
+    "id": "caltech-surf",
+    "summary": "DEADLINE: Caltech SURF (Summer Undergraduate Research)",
+    "month": 2,
+    "day": 22,
+    "min_stage": "undergraduate",
+    "description": "Focus: Research in any field offered at Caltech, including computing, AI and algorithms (placement depends on your mentor).\\nEligibility: Continuing undergraduates, international students included. Caltech students need a GPA of 2.0+; visiting students need a cumulative GPA of 2.5/4.0+ and must be eligible for fall registration. JPL placements are limited to US citizens and permanent residents.\\nBenefits: 10-week fellowship starting mid-June with a flat stipend, about $8,110 in 2026. The 2027 amount and exactly what it covers are not confirmed here, so check the official page.\\nRequirements: A Caltech faculty mentor's agreement to supervise you, research proposal, unofficial transcript, 2 recommendation letters (at least one from a faculty member), online application.\\nDeadline: Applications open Nov 1, 2026; application and letters due Feb 22, 2027; awards announced Apr 1, 2027.\\nPortal: https://sfp.caltech.edu/undergraduate-research/programs/surf/application_information"
+  },
+  {
     "id": "google-africa",
     "summary": "DEADLINE: Google Research Africa Student Researcher",
     "month": 2,
@@ -117,13 +133,6 @@
     "month": 2,
     "day": 28,
     "description": "Focus: Machine Learning, NLP, Computer Vision.\\nEligibility: Penultimate year STEM undergraduate, CGPA >= 3.5/4.0.\\nRequirements: Academic Transcript, SOP, University Admission Letter, Passport.\\nPortal: https://mbzuai.ac.ae/ugrip/"
-  },
-  {
-    "id": "caltech-surf",
-    "summary": "DEADLINE: Caltech SURF (Summer Undergraduate Research)",
-    "month": 3,
-    "day": 1,
-    "description": "Focus: Fundamental Computing, Applied AI, Algorithms.\\nRequirements: Contact Caltech faculty mentor in fall, research proposal, 2 recommendation letters.\\nPortal: https://sfp.caltech.edu/undergraduate-research/programs/surf"
   },
   {
     "id": "insait-surf",
@@ -252,28 +261,29 @@
     "description": "Focus: Computational Sciences, AI, STEM.\\nEligibility: Final 2 years of Bachelor's or Master's.\\nBenefits: ¥2,400 daily allowance, furnished accommodation, round-trip flights.\\nRequirements: Transcript, SOP, CV, 1+ recommendation letters.\\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship"
   },
   {
-    "id": "anthropic-stem-fellows",
-    "summary": "DEADLINE: Anthropic STEM Fellows Program (PhD holders, US work authorization required)",
-    "month": 10,
-    "day": 28,
-    "year": 2026,
-    "recurring": false,
-    "min_stage": "phd",
-    "description": "Eligibility: STEM PhD plus several years of experience (postdoc or faculty); existing US work authorization required; no visa sponsorship.\\nFocus: AI for science. Fellows build datasets, simulations and evaluations on open problems in mathematics, physics, life sciences and engineering using Claude.\\nProgram: 4 months full-time, Jan 12 to May 8, 2027; $100,000-$167,000 for the fellowship; offers by Nov 20, 2026.\\nRequirements: CV, short written answers, 2 references; take-home exercise at later stages.\\nNote: One-off call for the 2027 cohort. The posting gives no deadline time, so apply early.\\nPortal: https://job-boards.greenhouse.io/anthropic/jobs/5452403008"
-  },
-  {
-    "id": "digital-ai",
-    "summary": "DEADLINE: Digital, AI and Innovation Internship (Remote)",
-    "month": 10,
-    "day": 30,
-    "description": "Focus: AI deployment & tooling.\\nRequirements: CV, Cover letter, role-specific questionnaire.\\nPortal: https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/33001"
-  },
-  {
     "id": "max-planck-nov",
     "summary": "DEADLINE: Max Planck Institutes (CIS) Research Internship - Summer Start",
     "month": 11,
     "day": 1,
     "description": "Focus: All areas of Computer Science (MPI for Informatics, MPI for Software Systems, MPI for Security and Privacy).\\nDeadline: Nov 1 is strict for internships starting May-Aug of the following year; decisions by Feb 1. Other start dates are rolling (apply at least 5 months ahead).\\nEligibility: Bachelors, Masters and PhD students worldwide with roughly the first three years of a CS bachelors completed by the start, and an excellent academic record. Prior research experience is not required.\\nBenefits: Fully funded (stipend, housing, round-trip travel), typically 12-14 weeks.\\nRequirements: CV, transcripts (unofficial accepted), contact for at least 1 referee, optional motivation letter.\\nNote: MPI for Intelligent Systems is not part of this program; contact its faculty directly.\\nPortal: https://apply.cis.mpg.de/register/internship"
+  },
+  {
+    "id": "epfl-ai-postdoc",
+    "summary": "DEADLINE: EPFL AI Center & Swiss AI Initiative Postdoctoral Fellowship (PhD level)",
+    "month": 11,
+    "day": 9,
+    "min_stage": "phd",
+    "description": "Eligibility: PhD holders and final-stage PhD students (a PhD completed within about 2 years of the deadline, per secondary sources).\\nBenefits: Postdoctoral salary support for up to two years. Sources differ on the exact share of salary covered, so check the call.\\nProgram: An interdisciplinary AI research agenda carried out with at least two EPFL labs headed by EPFL AI Center faculty.\\nDeadline: Nov 9, 2026 at 17:00 CET. Calls run yearly and exact dates shift, so check the official call.\\nPortal: https://www.epfl.ch/research/funding/epfl-programmes/ai-center/"
+  },
+  {
+    "id": "gates-ai-fellow-africa",
+    "summary": "DEADLINE: Gates Foundation AI Fellow - Africa Regional Offices (12-month fellowship)",
+    "month": 11,
+    "day": 11,
+    "year": 2026,
+    "recurring": false,
+    "min_stage": "graduate",
+    "description": "Eligibility: Early-to-mid-career professionals, per the program's 2026 page. This is a 12-month limited-term employment position, not a student program. Check the posting for the minimum degree and years of experience.\\nLocation: Abuja (Nigeria), Addis Ababa (Ethiopia), Johannesburg (South Africa) or Nairobi (Kenya).\\nFocus: Apply AI to the Foundation's health, development and education priorities in low- and middle-income countries; each fellow is assigned 1-2 high-priority projects with the Africa team and partners.\\nDeadline: Apply by Nov 11, 2026 (the Workday listing closes Nov 12 EST).\\nNote: One-off call for the first Africa-based cohort. Pay for this cohort is not confirmed; the earlier global program listed about $148,920-$162,350 depending on location.\\nPortal: https://gatesfoundation.wd1.myworkdayjobs.com/en-US/Gates/job/AI-Fellow---Africa-Regional-Offices_B021830-1"
   },
   {
     "id": "max-planck-cactus",
