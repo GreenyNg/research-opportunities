@@ -5,6 +5,38 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Research Opportunities
 BEGIN:VEVENT
+UID:recur-ucl-gatsby@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260104T090000
+DTEND:20260104T100000
+RRULE:FREQ=YEARLY
+SUMMARY:CHECK: UCL Gatsby Unit Research Internship (January round\, exact d
+ ate TBC)
+DESCRIPTION:Minimum stage: Advanced undergraduate (about 3rd year or later)
+ \nEligibility: Final-year undergraduates and Master's students. The intern
+ ship is not part of a degree.\nDeadline: The unit reviews applications in 
+ January and July. For summer internships\, apply by the January deadline. 
+ The exact 2027 date is not published yet\, so the date shown is a reminder
+  to check the Vacancies page\, not a deadline.\nRequirements: Earlier call
+ s asked for a CV (2 pages) and transcripts.\nBenefits: Paid research inter
+ nship (earlier calls: up to 3 months).\nNote: The Gatsby Bridging Programm
+ e is a separate 7-week maths summer school for penultimate- or final-year 
+ undergraduates and Master's students.\nPortal: https://www.ucl.ac.uk/life-
+ sciences/gatsby/study-and-work
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: CHECK: UCL Gatsby Unit Research Internship (January r
+ ound\, exact date TBC) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: CHECK: UCL Gatsby Unit Research Internship (January rou
+ nd\, exact date TBC) in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:recur-weidenfeld-hoffmann@research
 DTSTAMP:20260101T000000Z
 DTSTART:20260106T090000
@@ -982,10 +1014,24 @@ DTSTART:20261116T090000
 DTEND:20261116T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart)
-DESCRIPTION:Focus: AI\, Machine Learning\, Cognitive Systems & Data.\nEligi
- bility: Undergrads (completed >= 4 semesters / 200–300 level).\nBenefits
- : €1\,350/month\, accommodation\, health insurance\, travel support.\nPo
- rtal: https://www.tuebingen.mpg.de/
+DESCRIPTION:Minimum stage: Undergraduate\nFocus: Computation and cognition 
+ (AI\, machine learning and brain research) at the Max Planck Institutes fo
+ r Biological Cybernetics and Intelligent Systems and the Tübingen AI Cent
+ er.\nEligibility: Bachelor's and Master's students worldwide. The programm
+ e specifically targets motivated students constrained by personal\, financ
+ ial\, regional or societal issues that affect their future education\, and
+  applicants are expected to explain how access to first-class education is
+  constrained for them. Students from low- and middle-income countries are 
+ explicitly encouraged to apply. Students without a finished Bachelor's nee
+ d at least 4 completed semesters (earlier years counted them at applicatio
+ n\, the 2026 page before the internship starts\, so check the 2027 call).\
+ nProgram: Paid 3-month research internship\, Jul 1 to Sep 30\, 2027. You m
+ ust be available for the full period\, and it must be voluntary rather tha
+ n for course credit. The coordination office arranges affordable accommoda
+ tion. The exact stipend and travel support are not confirmed here.\nDeadli
+ ne: Nov 16\, 2026 (portal opened Oct 21\; interviews in January\, notifica
+ tions in February). No application fee.\nPortal: https://www.projects.tueb
+ ingen.mpg.de/
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -1002,13 +1048,22 @@ END:VEVENT
 BEGIN:VEVENT
 UID:recur-epfl-summer@research
 DTSTAMP:20260101T000000Z
-DTSTART:20261130T090000
-DTEND:20261130T100000
+DTSTART:20261129T090000
+DTEND:20261129T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: Summer @ EPFL Research Fellowship (Switzerland)
-DESCRIPTION:Focus: Computer Science\, Information Systems\, Machine Learnin
- g.\nRequirements: Academic Transcript\, CV/Resume\, Motivation Letter\, Re
- ferences.\nPortal: https://summer.epfl.ch/apply.html
+DESCRIPTION:Minimum stage: Undergraduate\nFocus: Summer research projects i
+ n EPFL's School of Computer and Communication Sciences. You choose up to 3
+  domains\, and no project list is published in advance.\nEligibility: Stud
+ ents enrolled in a Bachelor's or Master's programme at another institution
+  at the time of the fellowship. EPFL's own students are not eligible.\nReq
+ uirements: CV\, all university transcripts\, and a 1-2 page motivation let
+ ter (PDF). Do not upload recommendation letters\; the official page says t
+ hey may jeopardize your application.\nDeadline: Sunday Nov 29\, 2026\, 23:
+ 39 AoE. Offers come about 4-6 weeks after the deadline.\nNote: You arrange
+  your own accommodation (EPFL staff can suggest places). Stipend details a
+ re not confirmed here\, so check the official page.\nPortal: https://summe
+ r.epfl.ch/apply.html
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
@@ -1043,29 +1098,6 @@ TRIGGER:-P3D
 ACTION:DISPLAY
 DESCRIPTION:Urgent: DEADLINE: ETH Zurich Student Summer Research Fellowship
   (SSRF) in 3 days
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:recur-ucl-gatsby@research
-DTSTAMP:20260101T000000Z
-DTSTART:20261218T090000
-DTEND:20261218T100000
-RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: UCL Gatsby Computational Neuroscience & ML Internship
-DESCRIPTION:Focus: Theoretical Machine Learning\, Deep Math\, Probabilistic
-  Models.\nRequirements: Deep math foundation\, CV\, transcripts.\nPortal: 
- https://www.ucl.ac.uk/life-sciences/gatsby/study-and-work/vacancies
-BEGIN:VALARM
-TRIGGER:-P14D
-ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: UCL Gatsby Computational Neuroscience & ML 
- Internship in 14 days
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-P3D
-ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: UCL Gatsby Computational Neuroscience & ML In
- ternship in 3 days
 END:VALARM
 END:VEVENT
 END:VCALENDAR
