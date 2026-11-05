@@ -636,6 +636,47 @@ DESCRIPTION:Urgent: DEADLINE: ELITE Research Lab Internship in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:recur-oist-japan-fall@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260415T090000
+DTEND:20260415T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: OIST Research Internship Program (Japan) - Fall round
+DESCRIPTION:Minimum stage: Advanced undergraduate (about 3rd year or later)
+ \nFocus: Research internships hosted by OIST faculty units across science 
+ and technology. OIST lists current openings on its Faculty & Project Avail
+ ability page.\nEligibility: Students in the last two years of a bachelor's
+  degree (or who will be by the internship start)\, any year of a master's 
+ degree\, or graduates with a bachelor's or master's. Enrolled students nee
+ d approval from their home institution. Current or graduated PhD students 
+ are not eligible. It is meant for people who need more research experience
+  and may want to join OIST's PhD Program later.\nRequirements: Transcript 
+ and diploma (or an enrollment certificate)\, a statement of purpose (250 w
+ ords max)\, CV\, 1-3 recommendation letters from professorial-level facult
+ y (lab members and postdocs do not count)\, passport and ID photo. An Engl
+ ish test is optional.\nFee: 5\,000 JPY\, non-refundable\, and OIST offers 
+ no waivers for personal financial situations.\nDeadline: Apr 15\, 23:59 JS
+ T for the Fall round (Apr 15\, 2027 for the Oct 1\, 2027 to Mar 31\, 2028 
+ period\; results in mid-June). Internships last 4-6 months. OIST says the 
+ schedule is tentative.\nBenefits: Not listed on the application page. An e
+ arlier version of this entry mentioned a daily allowance of about 2\,400 J
+ PY\, so check the Program Description page for what is covered.\nPortal: h
+ ttps://www.oist.jp/admissions/research-internship/apply-research-internshi
+ p
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: OIST Research Internship Program (Japan) - 
+ Fall round in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: OIST Research Internship Program (Japan) - Fa
+ ll round in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:recur-ljla-lagos@research
 DTSTAMP:20260101T000000Z
 DTSTART:20260516T090000
@@ -891,23 +932,38 @@ DTSTAMP:20260101T000000Z
 DTSTART:20261015T090000
 DTEND:20261015T100000
 RRULE:FREQ=YEARLY
-SUMMARY:DEADLINE: OIST Research Internship Program (Japan)
-DESCRIPTION:Focus: Computational Sciences\, AI\, STEM.\nEligibility: Final 
- 2 years of Bachelor's or Master's.\nBenefits: ¥2\,400 daily allowance\, f
- urnished accommodation\, round-trip flights.\nRequirements: Transcript\, S
- OP\, CV\, 1+ recommendation letters.\nPortal: https://www.oist.jp/admissio
- ns/research-internship/apply-research-internship
+SUMMARY:DEADLINE: OIST Research Internship Program (Japan) - Spring round
+DESCRIPTION:Minimum stage: Advanced undergraduate (about 3rd year or later)
+ \nFocus: Research internships hosted by OIST faculty units across science 
+ and technology. OIST lists current openings on its Faculty & Project Avail
+ ability page.\nEligibility: Students in the last two years of a bachelor's
+  degree (or who will be by the internship start)\, any year of a master's 
+ degree\, or graduates with a bachelor's or master's. Enrolled students nee
+ d approval from their home institution. Current or graduated PhD students 
+ are not eligible. It is meant for people who need more research experience
+  and may want to join OIST's PhD Program later.\nRequirements: Transcript 
+ and diploma (or an enrollment certificate)\, a statement of purpose (250 w
+ ords max)\, CV\, 1-3 recommendation letters from professorial-level facult
+ y (lab members and postdocs do not count)\, passport and ID photo. An Engl
+ ish test is optional.\nFee: 5\,000 JPY\, non-refundable\, and OIST offers 
+ no waivers for personal financial situations.\nDeadline: Oct 15\, 23:59 JS
+ T for the Spring round (Oct 15\, 2026 for the Apr 1 to Sep 30\, 2027 perio
+ d\; results in mid-December). Internships last 4-6 months. OIST says the s
+ chedule is tentative.\nBenefits: Not listed on the application page. An ea
+ rlier version of this entry mentioned a daily allowance of about 2\,400 JP
+ Y\, so check the Program Description page for what is covered.\nPortal: ht
+ tps://www.oist.jp/admissions/research-internship/apply-research-internship
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
-DESCRIPTION:Reminder: DEADLINE: OIST Research Internship Program (Japan) in
-  14 days
+DESCRIPTION:Reminder: DEADLINE: OIST Research Internship Program (Japan) - 
+ Spring round in 14 days
 END:VALARM
 BEGIN:VALARM
 TRIGGER:-P3D
 ACTION:DISPLAY
-DESCRIPTION:Urgent: DEADLINE: OIST Research Internship Program (Japan) in 3
-  days
+DESCRIPTION:Urgent: DEADLINE: OIST Research Internship Program (Japan) - Sp
+ ring round in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -1078,15 +1134,61 @@ DESCRIPTION:Urgent: DEADLINE: Summer @ EPFL Research Fellowship (Switzerlan
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:recur-edsafe-women-in-ai@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261130T090000
+DTEND:20261130T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: EDSAFE AI Alliance Women in AI Fellowship (women only\, p
+ art-time)
+DESCRIPTION:Minimum stage: Graduate (Bachelor's completed\, or Master's/PhD
+  student)\nEligibility: Women technologists (AI\, data science or related 
+ fields) and women educational leaders (administrators\, teachers\, researc
+ hers\, policymakers) interested in the safe\, ethical use of AI in educati
+ on. Open worldwide\, and self-nominations are welcome. The form asks for y
+ our organization and examples of your work\, so it looks aimed at working 
+ professionals more than students.\nProgram: 12-month fellowship starting i
+ n January 2027\, with virtual workshops\, mentorship from past fellows\, a
+  cohort of 30+ people and a micro-capstone project. Expect about 2-4 hours
+  a month.\nBenefits: No participation cost. There is no honorarium or comp
+ ensation.\nDeadline: Nov 30\, 2026\, 10 p.m. EST (about 4 a.m. on Dec 1 in
+  Nigeria). Fellows are announced in January 2027.\nPortal: https://www.eds
+ afeai.org/fellowship
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: EDSAFE AI Alliance Women in AI Fellowship (
+ women only\, part-time) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: EDSAFE AI Alliance Women in AI Fellowship (wo
+ men only\, part-time) in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:recur-eth-zurich@research
 DTSTAMP:20260101T000000Z
 DTSTART:20261216T090000
 DTEND:20261216T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF)
-DESCRIPTION:Focus Areas: Data Management & Machine Learning\, Intelligent S
- ystems\, Theory.\nRequirements: Academic Transcript\, CV\, Motivation Lett
- er.\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html
+DESCRIPTION:Minimum stage: Undergraduate\nFocus: Research areas listed by E
+ TH: Machine Learning\, Information Security\, Computer Systems\, Robotics\
+ , Programming Languages and Software Engineering\, Bio/Medical informatics
+ \, Human-computer interaction\, Theory and Visual Computing.\nEligibility:
+  Undergraduate and graduate students worldwide\, except students enrolled 
+ at ETH Zurich. The programme is aimed at students gaining their first rese
+ arch experience. Earlier calls also asked for an expected graduation date 
+ in the year after the fellowship or later\, and availability for both summ
+ er months.\nBenefits: Two summer months at ETH. The stipend is reported to
+  cover travel\, accommodation and living costs\, so confirm on the call pa
+ ge.\nRequirements: Academic transcript\, CV and motivation letter\, as lis
+ ted in earlier calls.\nDeadline: Applications reportedly run Nov 1 to Dec 
+ 16\, 2026 (the 2024 cutoff was 13:00 CET). ETH's page had not been updated
+  for the 2027 call when I checked\, so confirm the date and time.\nPortal:
+  https://inf.ethz.ch/studies/summer-research-fellowship.html
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
