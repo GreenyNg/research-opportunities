@@ -185,6 +185,14 @@
     "description": "Tracks: CS Research Intern, Economics & Business Research.\\nRequirements: Short answer prompts, CV.\\nPortal: https://lnkd.in/g97jvByR"
   },
   {
+    "id": "oist-japan-fall",
+    "summary": "DEADLINE: OIST Research Internship Program (Japan) - Fall round",
+    "month": 4,
+    "day": 15,
+    "min_stage": "advanced-undergraduate",
+    "description": "Focus: Research internships hosted by OIST faculty units across science and technology. OIST lists current openings on its Faculty & Project Availability page.\\nEligibility: Students in the last two years of a bachelor's degree (or who will be by the internship start), any year of a master's degree, or graduates with a bachelor's or master's. Enrolled students need approval from their home institution. Current or graduated PhD students are not eligible. It is meant for people who need more research experience and may want to join OIST's PhD Program later.\\nRequirements: Transcript and diploma (or an enrollment certificate), a statement of purpose (250 words max), CV, 1-3 recommendation letters from professorial-level faculty (lab members and postdocs do not count), passport and ID photo. An English test is optional.\\nFee: 5,000 JPY, non-refundable, and OIST offers no waivers for personal financial situations.\\nDeadline: Apr 15, 23:59 JST for the Fall round (Apr 15, 2027 for the Oct 1, 2027 to Mar 31, 2028 period; results in mid-June). Internships last 4-6 months. OIST says the schedule is tentative.\\nBenefits: Not listed on the application page. An earlier version of this entry mentioned a daily allowance of about 2,400 JPY, so check the Program Description page for what is covered.\\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship"
+  },
+  {
     "id": "ljla-lagos",
     "summary": "DEADLINE: Lateef Jakande Leadership Academy (LJLA) Fellowship",
     "month": 5,
@@ -263,10 +271,11 @@
   },
   {
     "id": "oist-japan",
-    "summary": "DEADLINE: OIST Research Internship Program (Japan)",
+    "summary": "DEADLINE: OIST Research Internship Program (Japan) - Spring round",
     "month": 10,
     "day": 15,
-    "description": "Focus: Computational Sciences, AI, STEM.\\nEligibility: Final 2 years of Bachelor's or Master's.\\nBenefits: ¥2,400 daily allowance, furnished accommodation, round-trip flights.\\nRequirements: Transcript, SOP, CV, 1+ recommendation letters.\\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship"
+    "min_stage": "advanced-undergraduate",
+    "description": "Focus: Research internships hosted by OIST faculty units across science and technology. OIST lists current openings on its Faculty & Project Availability page.\\nEligibility: Students in the last two years of a bachelor's degree (or who will be by the internship start), any year of a master's degree, or graduates with a bachelor's or master's. Enrolled students need approval from their home institution. Current or graduated PhD students are not eligible. It is meant for people who need more research experience and may want to join OIST's PhD Program later.\\nRequirements: Transcript and diploma (or an enrollment certificate), a statement of purpose (250 words max), CV, 1-3 recommendation letters from professorial-level faculty (lab members and postdocs do not count), passport and ID photo. An English test is optional.\\nFee: 5,000 JPY, non-refundable, and OIST offers no waivers for personal financial situations.\\nDeadline: Oct 15, 23:59 JST for the Spring round (Oct 15, 2026 for the Apr 1 to Sep 30, 2027 period; results in mid-December). Internships last 4-6 months. OIST says the schedule is tentative.\\nBenefits: Not listed on the application page. An earlier version of this entry mentioned a daily allowance of about 2,400 JPY, so check the Program Description page for what is covered.\\nPortal: https://www.oist.jp/admissions/research-internship/apply-research-internship"
   },
   {
     "id": "max-planck-nov",
@@ -310,10 +319,19 @@
     "description": "Focus: Summer research projects in EPFL's School of Computer and Communication Sciences. You choose up to 3 domains, and no project list is published in advance.\\nEligibility: Students enrolled in a Bachelor's or Master's programme at another institution at the time of the fellowship. EPFL's own students are not eligible.\\nRequirements: CV, all university transcripts, and a 1-2 page motivation letter (PDF). Do not upload recommendation letters; the official page says they may jeopardize your application.\\nDeadline: Sunday Nov 29, 2026, 23:39 AoE. Offers come about 4-6 weeks after the deadline.\\nNote: You arrange your own accommodation (EPFL staff can suggest places). Stipend details are not confirmed here, so check the official page.\\nPortal: https://summer.epfl.ch/apply.html"
   },
   {
+    "id": "edsafe-women-in-ai",
+    "summary": "DEADLINE: EDSAFE AI Alliance Women in AI Fellowship (women only, part-time)",
+    "month": 11,
+    "day": 30,
+    "min_stage": "graduate",
+    "description": "Eligibility: Women technologists (AI, data science or related fields) and women educational leaders (administrators, teachers, researchers, policymakers) interested in the safe, ethical use of AI in education. Open worldwide, and self-nominations are welcome. The form asks for your organization and examples of your work, so it looks aimed at working professionals more than students.\\nProgram: 12-month fellowship starting in January 2027, with virtual workshops, mentorship from past fellows, a cohort of 30+ people and a micro-capstone project. Expect about 2-4 hours a month.\\nBenefits: No participation cost. There is no honorarium or compensation.\\nDeadline: Nov 30, 2026, 10 p.m. EST (about 4 a.m. on Dec 1 in Nigeria). Fellows are announced in January 2027.\\nPortal: https://www.edsafeai.org/fellowship"
+  },
+  {
     "id": "eth-zurich",
     "summary": "DEADLINE: ETH Zurich Student Summer Research Fellowship (SSRF)",
     "month": 12,
     "day": 16,
-    "description": "Focus Areas: Data Management & Machine Learning, Intelligent Systems, Theory.\\nRequirements: Academic Transcript, CV, Motivation Letter.\\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html"
+    "min_stage": "undergraduate",
+    "description": "Focus: Research areas listed by ETH: Machine Learning, Information Security, Computer Systems, Robotics, Programming Languages and Software Engineering, Bio/Medical informatics, Human-computer interaction, Theory and Visual Computing.\\nEligibility: Undergraduate and graduate students worldwide, except students enrolled at ETH Zurich. The programme is aimed at students gaining their first research experience. Earlier calls also asked for an expected graduation date in the year after the fellowship or later, and availability for both summer months.\\nBenefits: Two summer months at ETH. The stipend is reported to cover travel, accommodation and living costs, so confirm on the call page.\\nRequirements: Academic transcript, CV and motivation letter, as listed in earlier calls.\\nDeadline: Applications reportedly run Nov 1 to Dec 16, 2026 (the 2024 cutoff was 13:00 CET). ETH's page had not been updated for the 2027 call when I checked, so confirm the date and time.\\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html"
   }
 ]
