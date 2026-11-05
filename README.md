@@ -89,6 +89,7 @@ Eligibility varies widely. Some programs are limited to a particular year of stu
 * **Weidenfeld-Hoffmann Scholarships & Leadership Programme** (fully funded Oxford master's for students from mainly low- and middle-income countries)
 * **Lateef Jakande Leadership Academy (LJLA)**
 * **Gates Foundation AI Fellow, Africa Regional Offices** (12-month early-career fellowship; one-off 2027 cohort call)
+* **EDSAFE AI Alliance Women in AI Fellowship** (women only; part-time, 12 months; AI in education)
 
 ---
 
