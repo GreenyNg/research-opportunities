@@ -1,5 +1,13 @@
 [
   {
+    "id": "ucl-gatsby",
+    "summary": "CHECK: UCL Gatsby Unit Research Internship (January round, exact date TBC)",
+    "month": 1,
+    "day": 4,
+    "min_stage": "advanced-undergraduate",
+    "description": "Eligibility: Final-year undergraduates and Master's students. The internship is not part of a degree.\\nDeadline: The unit reviews applications in January and July. For summer internships, apply by the January deadline. The exact 2027 date is not published yet, so the date shown is a reminder to check the Vacancies page, not a deadline.\\nRequirements: Earlier calls asked for a CV (2 pages) and transcripts.\\nBenefits: Paid research internship (earlier calls: up to 3 months).\\nNote: The Gatsby Bridging Programme is a separate 7-week maths summer school for penultimate- or final-year undergraduates and Master's students.\\nPortal: https://www.ucl.ac.uk/life-sciences/gatsby/study-and-work"
+  },
+  {
     "id": "weidenfeld-hoffmann",
     "summary": "DEADLINE: Weidenfeld-Hoffmann Scholarships & Leadership Programme (Oxford master's, 2027-28)",
     "month": 1,
@@ -290,14 +298,16 @@
     "summary": "DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart)",
     "month": 11,
     "day": 16,
-    "description": "Focus: AI, Machine Learning, Cognitive Systems & Data.\\nEligibility: Undergrads (completed >= 4 semesters / 200–300 level).\\nBenefits: €1,350/month, accommodation, health insurance, travel support.\\nPortal: https://www.tuebingen.mpg.de/"
+    "min_stage": "undergraduate",
+    "description": "Focus: Computation and cognition (AI, machine learning and brain research) at the Max Planck Institutes for Biological Cybernetics and Intelligent Systems and the Tübingen AI Center.\\nEligibility: Bachelor's and Master's students worldwide. The programme specifically targets motivated students constrained by personal, financial, regional or societal issues that affect their future education, and applicants are expected to explain how access to first-class education is constrained for them. Students from low- and middle-income countries are explicitly encouraged to apply. Students without a finished Bachelor's need at least 4 completed semesters (earlier years counted them at application, the 2026 page before the internship starts, so check the 2027 call).\\nProgram: Paid 3-month research internship, Jul 1 to Sep 30, 2027. You must be available for the full period, and it must be voluntary rather than for course credit. The coordination office arranges affordable accommodation. The exact stipend and travel support are not confirmed here.\\nDeadline: Nov 16, 2026 (portal opened Oct 21; interviews in January, notifications in February). No application fee.\\nPortal: https://www.projects.tuebingen.mpg.de/"
   },
   {
     "id": "epfl-summer",
     "summary": "DEADLINE: Summer @ EPFL Research Fellowship (Switzerland)",
     "month": 11,
-    "day": 30,
-    "description": "Focus: Computer Science, Information Systems, Machine Learning.\\nRequirements: Academic Transcript, CV/Resume, Motivation Letter, References.\\nPortal: https://summer.epfl.ch/apply.html"
+    "day": 29,
+    "min_stage": "undergraduate",
+    "description": "Focus: Summer research projects in EPFL's School of Computer and Communication Sciences. You choose up to 3 domains, and no project list is published in advance.\\nEligibility: Students enrolled in a Bachelor's or Master's programme at another institution at the time of the fellowship. EPFL's own students are not eligible.\\nRequirements: CV, all university transcripts, and a 1-2 page motivation letter (PDF). Do not upload recommendation letters; the official page says they may jeopardize your application.\\nDeadline: Sunday Nov 29, 2026, 23:39 AoE. Offers come about 4-6 weeks after the deadline.\\nNote: You arrange your own accommodation (EPFL staff can suggest places). Stipend details are not confirmed here, so check the official page.\\nPortal: https://summer.epfl.ch/apply.html"
   },
   {
     "id": "eth-zurich",
@@ -305,12 +315,5 @@
     "month": 12,
     "day": 16,
     "description": "Focus Areas: Data Management & Machine Learning, Intelligent Systems, Theory.\\nRequirements: Academic Transcript, CV, Motivation Letter.\\nPortal: https://inf.ethz.ch/studies/summer-research-fellowship.html"
-  },
-  {
-    "id": "ucl-gatsby",
-    "summary": "DEADLINE: UCL Gatsby Computational Neuroscience & ML Internship",
-    "month": 12,
-    "day": 18,
-    "description": "Focus: Theoretical Machine Learning, Deep Math, Probabilistic Models.\\nRequirements: Deep math foundation, CV, transcripts.\\nPortal: https://www.ucl.ac.uk/life-sciences/gatsby/study-and-work/vacancies"
   }
 ]
