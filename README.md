@@ -90,6 +90,11 @@ Eligibility varies widely. Some programs are limited to a particular year of stu
 * **Lateef Jakande Leadership Academy (LJLA)**
 * **Gates Foundation AI Fellow, Africa Regional Offices** (12-month early-career fellowship; one-off 2027 cohort call)
 * **EDSAFE AI Alliance Women in AI Fellowship** (women only; part-time, 12 months; AI in education)
+* **ETH Zurich Excellence Scholarship (ESOP)** (Master's, Switzerland)
+* **MBZUAI Master's & PhD in AI** (UAE; PhD funded, Master's funding not automatic)
+* **KAUST MS, MS/PhD & PhD with the KAUST Fellowship** (Saudi Arabia)
+* **Gates Cambridge Scholarship** (Master's & PhD at Cambridge, UK)
+* **NUS Research Scholarship** (research Master's & PhD, Singapore)
 
 ---
 
