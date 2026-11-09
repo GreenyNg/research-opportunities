@@ -1,5 +1,13 @@
 [
   {
+    "id": "kaust-fellowship",
+    "summary": "DEADLINE: KAUST MS, MS/PhD & PhD with KAUST Fellowship (Fall 2027)",
+    "month": 1,
+    "day": 3,
+    "min_stage": "graduate",
+    "description": "Eligibility: Fall 2027 is open to MS, MS/PhD and PhD applicants (Spring admission is PhD only). Admitted students are automatically considered for the KAUST Fellowship, and there is no separate fellowship application.\\nBenefits: Reported to cover tuition, housing and a stipend (about US$20,000 a year for MS and US$25,000-30,000 for PhD). Confirm on the KAUST admissions site.\\nDeadline: Jan 3, 2027 for Fall 2027. Applications opened Sept 28, 2026, decisions are scheduled for Feb 25, 2027 and the semester starts Aug 29, 2027. Some sites mention earlier priority dates, which the official timeline does not show.\\nPortal: https://admissions.kaust.edu.sa/how-to-apply/admission-timelines"
+  },
+  {
     "id": "ucl-gatsby",
     "summary": "CHECK: UCL Gatsby Unit Research Internship (January round, exact date TBC)",
     "month": 1,
@@ -303,6 +311,14 @@
     "description": "Eligibility: Early-to-mid-career professionals, per the program's 2026 page. This is a 12-month limited-term employment position, not a student program. Check the posting for the minimum degree and years of experience.\\nLocation: Abuja (Nigeria), Addis Ababa (Ethiopia), Johannesburg (South Africa) or Nairobi (Kenya).\\nFocus: Apply AI to the Foundation's health, development and education priorities in low- and middle-income countries; each fellow is assigned 1-2 high-priority projects with the Africa team and partners.\\nDeadline: Apply by Nov 11, 2026 (the Workday listing closes Nov 12 EST).\\nNote: One-off call for the first Africa-based cohort. Pay for this cohort is not confirmed; the earlier global program listed about $148,920-$162,350 depending on location.\\nPortal: https://gatesfoundation.wd1.myworkdayjobs.com/en-US/Gates/job/AI-Fellow---Africa-Regional-Offices_B021830-1"
   },
   {
+    "id": "nus-research-scholarship",
+    "summary": "DEADLINE: NUS Research Scholarship (research Master's & PhD, August 2027 intake)",
+    "month": 11,
+    "day": 15,
+    "min_stage": "graduate",
+    "description": "Eligibility: Applicants to NUS research degrees (PhD and research Master's). There is no separate scholarship form: select Scholarship under Source of Finance on the NUS graduate application (GradApp). International scholars may have Graduate Assistantship duties.\\nDeadline: Faculty-specific. Many PhD programmes close Nov 15, 2026 for the August 2027 intake, but some schools close earlier (for example Nov 1), and the College of Design and Engineering reportedly closes Jan 15, 2027. Check your faculty or school page.\\nPortal: https://gradapp.nus.edu.sg/apply"
+  },
+  {
     "id": "max-planck-cactus",
     "summary": "DEADLINE: Max Planck CaCTüS Internship (Tübingen & Stuttgart)",
     "month": 11,
@@ -325,6 +341,30 @@
     "day": 30,
     "min_stage": "graduate",
     "description": "Eligibility: Women technologists (AI, data science or related fields) and women educational leaders (administrators, teachers, researchers, policymakers) interested in the safe, ethical use of AI in education. Open worldwide, and self-nominations are welcome. The form asks for your organization and examples of your work, so it looks aimed at working professionals more than students.\\nProgram: 12-month fellowship starting in January 2027, with virtual workshops, mentorship from past fellows, a cohort of 30+ people and a micro-capstone project. Expect about 2-4 hours a month.\\nBenefits: No participation cost. There is no honorarium or compensation.\\nDeadline: Nov 30, 2026, 10 p.m. EST (about 4 a.m. on Dec 1 in Nigeria). Fellows are announced in January 2027.\\nPortal: https://www.edsafeai.org/fellowship"
+  },
+  {
+    "id": "eth-esop",
+    "summary": "DEADLINE: ETH Zurich Excellence Scholarship (ESOP), Master's",
+    "month": 11,
+    "day": 30,
+    "min_stage": "graduate",
+    "description": "Eligibility: Applicants to an eligible consecutive ETH Zurich Master's programme with a Bachelor's result in the top 10% of their programme (grade A). Applicants with a non-Swiss Bachelor's must use the November window. There is no separate scholarship form: apply through ETH's eApply portal with your Master's application and indicate ESOP.\\nRequirements: Letter of motivation (1-2 pages), a self-written thesis pre-proposal, two professor reference letters (if the Master's does not already require them), plus the normal Master's documents.\\nBenefits: Covers study and living costs during the Master's.\\nDeadline: Nov 30, 2026 at 11:59 AM CET (morning, not evening). The window opens Nov 1. Interviews may take place in February, with decisions around March 2027.\\nPortal: https://ethz.ch/en/studies/registration-application/master/application/how-to-apply/application-schedule.html"
+  },
+  {
+    "id": "gates-cambridge",
+    "summary": "DEADLINE: Gates Cambridge Scholarship (Master's & PhD, 2027-28 entry)",
+    "month": 12,
+    "day": 8,
+    "min_stage": "graduate",
+    "description": "Eligibility: Applicants to a full-time Cambridge postgraduate course. Some courses, such as the MBA, are not eligible, so check the course list. Apply through Cambridge's graduate application portal and tick the Gates Cambridge funding option.\\nDeadline: Dec 8, 2026 or Jan 6, 2027 (23:59 UK), depending on your course's funding deadline in the Cambridge Course Directory. The date shown is the earlier one. US citizens living in the US have a separate round that closes Oct 14. International outcomes come by early March 2027.\\nBenefits: The full University fee, a living stipend, airfare and visa costs.\\nPortal: https://www.gatescambridge.org/apply/timeline/"
+  },
+  {
+    "id": "mbzuai-graduate",
+    "summary": "DEADLINE: MBZUAI Master's & PhD in AI (Fall 2027 intake)",
+    "month": 12,
+    "day": 15,
+    "min_stage": "graduate",
+    "description": "Focus: Master's and PhD programmes in AI-related fields (machine learning, computer vision, NLP, robotics and more) at MBZUAI in Abu Dhabi.\\nBenefits: PhD students are funded. Master's funding is not automatic: regular M.Sc. students are fee-paying by default unless funded, and the Master in Applied AI is fee-based with no funding. Stipends for funded international students have been reported at AED 15,500 (M.Sc.) and AED 17,500 (PhD) a month, so confirm on the fees and scholarships page.\\nDeadline: Most programmes close Dec 15, 2026 at 5 p.m. GST, with decisions by Mar 31, 2027. Exceptions: Computational Biology closes Jan 22, 2027 and the Master in Applied AI closes Feb 28, 2027.\\nRequirements: Application fee of AED 200. Check each programme page for documents and test requirements.\\nPortal: https://mbzuai.ac.ae/study/graduate-admission-process/"
   },
   {
     "id": "eth-zurich",
