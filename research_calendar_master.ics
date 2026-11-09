@@ -5,6 +5,37 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Research Opportunities
 BEGIN:VEVENT
+UID:recur-kaust-fellowship@research
+DTSTAMP:20260101T000000Z
+DTSTART:20260103T090000
+DTEND:20260103T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: KAUST MS\, MS/PhD & PhD with KAUST Fellowship (Fall 2027)
+DESCRIPTION:Minimum stage: Graduate (Bachelor's completed\, or Master's/PhD
+  student)\nEligibility: Fall 2027 is open to MS\, MS/PhD and PhD applicant
+ s (Spring admission is PhD only). Admitted students are automatically cons
+ idered for the KAUST Fellowship\, and there is no separate fellowship appl
+ ication.\nBenefits: Reported to cover tuition\, housing and a stipend (abo
+ ut US$20\,000 a year for MS and US$25\,000-30\,000 for PhD). Confirm on th
+ e KAUST admissions site.\nDeadline: Jan 3\, 2027 for Fall 2027. Applicatio
+ ns opened Sept 28\, 2026\, decisions are scheduled for Feb 25\, 2027 and t
+ he semester starts Aug 29\, 2027. Some sites mention earlier priority date
+ s\, which the official timeline does not show.\nPortal: https://admissions
+ .kaust.edu.sa/how-to-apply/admission-timelines
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: KAUST MS\, MS/PhD & PhD with KAUST Fellowsh
+ ip (Fall 2027) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: KAUST MS\, MS/PhD & PhD with KAUST Fellowship
+  (Fall 2027) in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:recur-ucl-gatsby@research
 DTSTAMP:20260101T000000Z
 DTSTART:20260104T090000
@@ -1064,6 +1095,36 @@ DESCRIPTION:Urgent: DEADLINE: Gates Foundation AI Fellow - Africa Regional
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:recur-nus-research-scholarship@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261115T090000
+DTEND:20261115T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: NUS Research Scholarship (research Master's & PhD\, Augus
+ t 2027 intake)
+DESCRIPTION:Minimum stage: Graduate (Bachelor's completed\, or Master's/PhD
+  student)\nEligibility: Applicants to NUS research degrees (PhD and resear
+ ch Master's). There is no separate scholarship form: select Scholarship un
+ der Source of Finance on the NUS graduate application (GradApp). Internati
+ onal scholars may have Graduate Assistantship duties.\nDeadline: Faculty-s
+ pecific. Many PhD programmes close Nov 15\, 2026 for the August 2027 intak
+ e\, but some schools close earlier (for example Nov 1)\, and the College o
+ f Design and Engineering reportedly closes Jan 15\, 2027. Check your facul
+ ty or school page.\nPortal: https://gradapp.nus.edu.sg/apply
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: NUS Research Scholarship (research Master's
+  & PhD\, August 2027 intake) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: NUS Research Scholarship (research Master's &
+  PhD\, August 2027 intake) in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:recur-max-planck-cactus@research
 DTSTAMP:20260101T000000Z
 DTSTART:20261116T090000
@@ -1165,6 +1226,105 @@ TRIGGER:-P3D
 ACTION:DISPLAY
 DESCRIPTION:Urgent: DEADLINE: EDSAFE AI Alliance Women in AI Fellowship (wo
  men only\, part-time) in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recur-eth-esop@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261130T090000
+DTEND:20261130T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: ETH Zurich Excellence Scholarship (ESOP)\, Master's
+DESCRIPTION:Minimum stage: Graduate (Bachelor's completed\, or Master's/PhD
+  student)\nEligibility: Applicants to an eligible consecutive ETH Zurich M
+ aster's programme with a Bachelor's result in the top 10% of their program
+ me (grade A). Applicants with a non-Swiss Bachelor's must use the November
+  window. There is no separate scholarship form: apply through ETH's eApply
+  portal with your Master's application and indicate ESOP.\nRequirements: L
+ etter of motivation (1-2 pages)\, a self-written thesis pre-proposal\, two
+  professor reference letters (if the Master's does not already require the
+ m)\, plus the normal Master's documents.\nBenefits: Covers study and livin
+ g costs during the Master's.\nDeadline: Nov 30\, 2026 at 11:59 AM CET (mor
+ ning\, not evening). The window opens Nov 1. Interviews may take place in 
+ February\, with decisions around March 2027.\nPortal: https://ethz.ch/en/s
+ tudies/registration-application/master/application/how-to-apply/applicatio
+ n-schedule.html
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: ETH Zurich Excellence Scholarship (ESOP)\, 
+ Master's in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: ETH Zurich Excellence Scholarship (ESOP)\, Ma
+ ster's in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recur-gates-cambridge@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261208T090000
+DTEND:20261208T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: Gates Cambridge Scholarship (Master's & PhD\, 2027-28 ent
+ ry)
+DESCRIPTION:Minimum stage: Graduate (Bachelor's completed\, or Master's/PhD
+  student)\nEligibility: Applicants to a full-time Cambridge postgraduate c
+ ourse. Some courses\, such as the MBA\, are not eligible\, so check the co
+ urse list. Apply through Cambridge's graduate application portal and tick 
+ the Gates Cambridge funding option.\nDeadline: Dec 8\, 2026 or Jan 6\, 202
+ 7 (23:59 UK)\, depending on your course's funding deadline in the Cambridg
+ e Course Directory. The date shown is the earlier one. US citizens living 
+ in the US have a separate round that closes Oct 14. International outcomes
+  come by early March 2027.\nBenefits: The full University fee\, a living s
+ tipend\, airfare and visa costs.\nPortal: https://www.gatescambridge.org/a
+ pply/timeline/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: Gates Cambridge Scholarship (Master's & PhD
+ \, 2027-28 entry) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: Gates Cambridge Scholarship (Master's & PhD\,
+  2027-28 entry) in 3 days
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recur-mbzuai-graduate@research
+DTSTAMP:20260101T000000Z
+DTSTART:20261215T090000
+DTEND:20261215T100000
+RRULE:FREQ=YEARLY
+SUMMARY:DEADLINE: MBZUAI Master's & PhD in AI (Fall 2027 intake)
+DESCRIPTION:Minimum stage: Graduate (Bachelor's completed\, or Master's/PhD
+  student)\nFocus: Master's and PhD programmes in AI-related fields (machin
+ e learning\, computer vision\, NLP\, robotics and more) at MBZUAI in Abu D
+ habi.\nBenefits: PhD students are funded. Master's funding is not automati
+ c: regular M.Sc. students are fee-paying by default unless funded\, and th
+ e Master in Applied AI is fee-based with no funding. Stipends for funded i
+ nternational students have been reported at AED 15\,500 (M.Sc.) and AED 17
+ \,500 (PhD) a month\, so confirm on the fees and scholarships page.\nDeadl
+ ine: Most programmes close Dec 15\, 2026 at 5 p.m. GST\, with decisions by
+  Mar 31\, 2027. Exceptions: Computational Biology closes Jan 22\, 2027 and
+  the Master in Applied AI closes Feb 28\, 2027.\nRequirements: Application
+  fee of AED 200. Check each programme page for documents and test requirem
+ ents.\nPortal: https://mbzuai.ac.ae/study/graduate-admission-process/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Reminder: DEADLINE: MBZUAI Master's & PhD in AI (Fall 2027 inta
+ ke) in 14 days
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P3D
+ACTION:DISPLAY
+DESCRIPTION:Urgent: DEADLINE: MBZUAI Master's & PhD in AI (Fall 2027 intake
+ ) in 3 days
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
