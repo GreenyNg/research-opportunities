@@ -98,6 +98,16 @@ Eligibility varies widely. Some programs are limited to a particular year of stu
 
 ---
 
+## 🔄 Rolling Programmes (No Fixed Deadline)
+
+These accept applications throughout the year, so they are not in the calendar feed.
+
+* **[Google TPU Research Cloud (TRC)](https://sites.research.google/trc/about/)**: Free access to Cloud TPUs for research, by application. It is open to researchers and students beyond academia, and works with TensorFlow, PyTorch, Julia and JAX.
+* **[Google Cloud Research Credits](https://edu.google.com/intl/ALL_us/programs/credits/research/)**: Cloud credits for faculty, PhD students and postdoctoral researchers at accredited institutions and eligible nonprofits in approved countries (Nigeria is on the list). Undergraduates are not eligible.
+* **[Thinking About Thinking Ambassador Programme](https://www.thinkingaboutthinking.org/apply)**: A year-long, contribution-based role for students and early-career researchers working on intelligence across AI, neuroscience and cognitive science. Applications are rolling, and ambassadors who contribute consistently are considered for the invite-only Fellowship. Pay is not stated.
+
+---
+
 ## 🛠️ Repository Architecture
 
 * `opportunities.json`: Structured source of truth for program dates, details, and application links.
