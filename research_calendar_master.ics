@@ -892,10 +892,20 @@ DTSTART:20260925T090000
 DTEND:20260925T100000
 RRULE:FREQ=YEARLY
 SUMMARY:DEADLINE: CAAR Scholars Junior Research Fellow Programme
-DESCRIPTION:Focus: Applied research\, mentorship\, and foundational skills 
- for emerging African researchers.\nRequirements: Academic CV\, transcripts
- \, statement of research interests.\nPortal: https://www.caarsscholars.org
- /
+DESCRIPTION:Minimum stage: Undergraduate\nEligibility: Undergraduate and Ma
+ ster's students\, recent graduates\, PhD students\, early-career researche
+ rs and young professionals from any discipline.\nProgram: A six-week onlin
+ e programme with research training\, mentorship\, a collaborative research
+  project\, an ethics and leadership component and a certificate. Fellows m
+ ay join paid research projects. The 2026 programme started in October 2026
+ .\nFocus: Applied research and policy in Ghana and West Africa\, such as c
+ limate\, governance\, development and public health. CAAR lists technology
+  and AI policy as a research area\, but the fellowship is not an AI or CS 
+ research programme.\nRequirements: Online application form\; a CV may be r
+ equired.\nDeadline: Sept 25\, 2026 for the 2026 call. The call page is dat
+ ed Oct 1\, 2026 but states that deadline\, so confirm the dates when the n
+ ext call opens (check the Events page).\nPortal: https://www.caarscholars.
+ org/events
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY
